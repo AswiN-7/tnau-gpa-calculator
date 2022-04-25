@@ -162,10 +162,30 @@ image{
     text-align: center;
 } 
 
+
+.instruction-hide{
+    display: none;
+}
+.instruction-show{
+    display: flex;
+    flex-direction: column;
+    transform: perspective(500px);
+    transition: width 20s;
+}
 /*==================== course ====================*/
-.grp{
+.grp-course{
     display: flex;
     justify-content: space-around;
+    
+}
+.grp-streams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grp-semaster{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
 }
 .course__element{
     padding: 15px;
@@ -181,14 +201,14 @@ image{
 
 .stream__element{
     padding: 10px;
-    font-size: var(--h1-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color);
     cursor: pointer;
 }
 
 .semaster__element{
-    padding: 5px;
+    padding: 10px;
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color);
