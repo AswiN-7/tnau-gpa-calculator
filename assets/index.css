@@ -118,6 +118,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -167,7 +168,7 @@ image{
     justify-content: space-around;
 }
 .course__element{
-    padding: 20px;
+    padding: 15px;
     font-size: var(--big-font-size);
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
@@ -230,7 +231,12 @@ image{
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
-
+.subject__name{
+    width: 80%;
+}
+.subject__score{
+    width: 15%;
+}
 /*==================== BUTTONS ====================*/
 .button{
     display: inline-block;
@@ -261,7 +267,23 @@ image{
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-
+@media screen and (max-width : 650px) {
+    .grp{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-content: center;
+    }
+    :root {
+        --big-font-size: 2rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: .90rem;
+        --normal-font-size: .55rem;
+        --small-font-size: .6rem;
+        --smaller-font-size: .55rem;
+    }
+}
 
 /* For medium devices */
 

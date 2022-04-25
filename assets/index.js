@@ -593,7 +593,13 @@ Information = {
                   }
             ]
             }
+        }, 
+        "PG" : {
+            "assd":{
+
+            }
         }
+
     }
 
 // select main head
@@ -734,6 +740,7 @@ function createSubjectElement(subject){
     var input = document.createElement("INPUT");
     input.id = subject['Course No.']
     input.setAttribute("type", "number")
+    input.classList.add('subject__score');
 
  
     div.appendChild(subName);
@@ -875,6 +882,4 @@ function calculateGpa() {
 
 
 
-// const jsonData= require('data.json'); 
-// console.log(jsonData);  
 
