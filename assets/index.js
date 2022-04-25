@@ -52,7 +52,7 @@ Information = {
                         "S.No.": 1,
                         "Course No.": "MAT 112",
                         "Course Title": "Basic Mathematics I (Remedial course)",
-                        "Credit hours": "2+1",
+                        "Credit hours": "2+1*",
                         "Course offering Department": "PS&IT",
                       },
                       {
@@ -132,7 +132,466 @@ Information = {
                         "Credit hours": "0+1#",
                         "Course offering Department": "",
                       }
-                ]
+                ], 
+             "sem2": [
+                {
+                    "S.No.": 1,
+                    "Course No.": "MAT 113",
+                    "Course Title": "Basic Mathematics II (Remedial course)",
+                    "Credit hours": "2+1*",
+                    "Course offering Department": "PS&IT"
+                  },
+                  {
+                    "S.No.": 2,
+                    "Course No.": "BTB 103",
+                    "Course Title": "Molecular Biology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 3,
+                    "Course No.": "BIF 101",
+                    "Course Title": "Introductory Bioinformatics",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "PMB&B"
+                  },
+                  {
+                    "S.No.": 4,
+                    "Course No.": "COM 112",
+                    "Course Title": "Information and Communication Technology",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "PS&IT"
+                  },
+                  {
+                    "S.No.": 5,
+                    "Course No.": "BIC 102",
+                    "Course Title": "General Biochemistry",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Biochemistry"
+                  },
+                  {
+                    "S.No.": 6,
+                    "Course No.": "AGM 111",
+                    "Course Title": "Microbiology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Agrl. Micro."
+                  },
+                  {
+                    "S.No.": 7,
+                    "Course No.": "SAC 101",
+                    "Course Title": "Fundamentals of Soil Science",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "SS&AC"
+                  },
+                  {
+                    "S.No.": 8,
+                    "Course No.": "CRP 111",
+                    "Course Title": "Plant Physiology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Crop Physiology"
+                  },
+                  {
+                    "S.No.": 9,
+                    "Course No.": "PHY 102",
+                    "Course Title": "Biophysics",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "NS&T"
+                  },
+                  {
+                    "S.No.": 10,
+                    "Course No.": "PED 101",
+                    "Course Title": "Physical Education",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": "Phy. Education"
+                  },
+                  {
+                    "S.No.": 11,
+                    "Course No.": "NCC 101/ NSS 101",
+                    "Course Title": "National Cadet Corps / National Service Scheme",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": ""
+                  }
+             ],
+             "sem3": [
+                {
+                    "S.No.": 1,
+                    "Course No.": "BTB 201",
+                    "Course Title": "Recombinant DNA Technology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 2,
+                    "Course No.": "BTB 202",
+                    "Course Title": "Plant Tissue Culture",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 3,
+                    "Course No.": "BIF 211",
+                    "Course Title": "Computational Biology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "PMB&B"
+                  },
+                  {
+                    "S.No.": 4,
+                    "Course No.": "MAT 211",
+                    "Course Title": "Biomathematics",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "PS&IT"
+                  },
+                  {
+                    "S.No.": 5,
+                    "Course No.": "AEN 221",
+                    "Course Title": "Fundamentals of Entomology and  Pest Management",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Ag. Entomology"
+                  },
+                  {
+                    "S.No.": 6,
+                    "Course No.": "PBG 212",
+                    "Course Title": "Classical and Molecular Cytogenetics",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "GPB"
+                  },
+                  {
+                    "S.No.": 7,
+                    "Course No.": "PAT 251",
+                    "Course Title": "Fundamentals of Plant Pathology, Nematology and Disease management",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Pathology"
+                  },
+                  {
+                    "S.No.": 8,
+                    "Course No.": "AGM 211",
+                    "Course Title": "Microbial Genetics",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Ag. Micro."
+                  },
+                  {
+                    "S.No.": 9,
+                    "Course No.": "BTH 221",
+                    "Course Title": "Production Technology of Horticultural Crops",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Horticulture"
+                  },
+                  {
+                    "S.No.": 10,
+                    "Course No.": "PED 101",
+                    "Course Title": "Physical Education",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": "Phy. Education"
+                  },
+                  {
+                    "S.No.": 11,
+                    "Course No.": "NCC 101/ NSS 101",
+                    "Course Title": "National Cadet Corps / National Service Scheme",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": ""
+                  }
+            ],
+            "sem4": [
+                {
+                    "S.No.": 1,
+                    "Course No.": "BTB 203",
+                    "Course Title": "Electronics and Instrumentation in Biotechnology",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 2,
+                    "Course No.": "BTB 204",
+                    "Course Title": "Molecular Genetics",
+                    "Credit hours": "2+0",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 3,
+                    "Course No.": "BTB 205",
+                    "Course Title": "Plant Genetic Transformation",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 4,
+                    "Course No.": "BTB 206",
+                    "Course Title": "Bioprospecting of Molecules and Genes",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 5,
+                    "Course No.": "BTB 207",
+                    "Course Title": "Immunology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 6,
+                    "Course No.": "BTB 208",
+                    "Course Title": "Fundamentals of Molecular Pharming and Biopharmaceuticals",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 7,
+                    "Course No.": "STA 201",
+                    "Course Title": "Statistical Methods",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "PS&IT"
+                  },
+                  {
+                    "S.No.": 8,
+                    "Course No.": "AEC 202",
+                    "Course Title": "Economics and Marketing",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Ag. Economics"
+                  },
+                  {
+                    "S.No.": 9,
+                    "Course No.": "AEX 201",
+                    "Course Title": "Communication Skills and Personality Development",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Agrl. Extension"
+                  },
+                  {
+                    "S.No.": 10,
+                    "Course No.": "NST 201",
+                    "Course Title": "Fundamentals and Applications of Nanotechnology",
+                    "Credit hours": "1+0",
+                    "Course offering Department": "Nano Sci.& Tech"
+                  },
+                  {
+                    "S.No.": 11,
+                    "Course No.": "PBG 213",
+                    "Course Title": "Basics of Plant Breeding",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "GPB"
+                  },
+                  {
+                    "S.No.": 12,
+                    "Course No.": "SST 211",
+                    "Course Title": "Seed Biology, Production and Management",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "SS&T"
+                  },
+                  {
+                    "S.No.": 13,
+                    "Course No.": "PED 101",
+                    "Course Title": "Physical Education",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": "Phy. Education"
+                  },
+                  {
+                    "S.No.": 14,
+                    "Course No.": "NCC 101/ NSS 101",
+                    "Course Title": "National Cadet Corps / National Service Scheme",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": ""
+                  }
+            ],
+            "sem5": [
+                {
+                    "S.No.": 1,
+                    "Course No.": "BTB 301",
+                    "Course Title": "Molecular Marker Technology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 2,
+                    "Course No.": "BTB 302",
+                    "Course Title": "Genomics and Proteomics",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 3,
+                    "Course No.": "BTB 303",
+                    "Course Title": "Molecular Ecology and Evolution",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 4,
+                    "Course No.": "BIC 301",
+                    "Course Title": "Enzymology and Enzyme Technologies",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Biochemistry"
+                  },
+                  {
+                    "S.No.": 5,
+                    "Course No.": "AGM 311",
+                    "Course Title": "Food Biotechnology",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Ag. Micro."
+                  },
+                  {
+                    "S.No.": 6,
+                    "Course No.": "AMP 301",
+                    "Course Title": "Animal Biotechnology",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Animal Husbandry"
+                  },
+                  {
+                    "S.No.": 7,
+                    "Course No.": "COM  311",
+                    "Course Title": "Agro-informatics",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "PS&IT"
+                  },
+                  {
+                    "S.No.": 8,
+                    "Course No.": "PBG 311",
+                    "Course Title": "Breeding of Field and Horticultural Crops",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "GPB"
+                  },
+                  {
+                    "S.No.": 9,
+                    "Course No.": "ARM 301",
+                    "Course Title": "Entrepreneurship Development and Business Management",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Agrl.& Rural Management"
+                  },
+                  {
+                    "S.No.": 10,
+                    "Course No.": "ENS 311",
+                    "Course Title": "Biodiversity and its Conservation",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Environ.sciences"
+                  },
+                  {
+                    "S.No.": 11,
+                    "Course No.": "NCC 101",
+                    "Course Title": "National Cadet Corps",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": ""
+                  },
+            ],
+            "sem6": [
+                {
+                    "S.No.": 1,
+                    "Course No.": "BTB 304",
+                    "Course Title": "Biosafety and Bioethics",
+                    "Credit hours": "1+0",
+                    "Course offering Department": "Plant Biotech.",
+                    
+                  },
+                  {
+                    "S.No.": 2,
+                    "Course No.": "TIP 351",
+                    "Course Title": "Intellectual Property Rights and Applications in Biotechnology",
+                    "Credit hours": "1+0",
+                    "Course offering Department": "Trade & IP",
+                    
+                  },
+                  {
+                    "S.No.": 3,
+                    "Course No.": "AGM 312",
+                    "Course Title": "Microbial Biotechnology",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "Ag. Micro",
+                    
+                  },
+                  {
+                    "S.No.": 4,
+                    "Course No.": "STA 323",
+                    "Course Title": "Biostatistics",
+                    "Credit hours": "1+1",
+                    "Course offering Department": "PS&IT",
+                    
+                  },
+                  {
+                    "S.No.": 5,
+                    "Course No.": "BTB 305",
+                    "Course Title": "Plant Tissue Culture and its Applications",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech.",
+                    
+                  },
+                  {
+                    "S.No.": 6,
+                    "Course No.": "BTB 306",
+                    "Course Title": "Principles and Applications of Plant Genetic Transformation",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech.",
+                    
+                  },
+                  {
+                    "S.No.": 7,
+                    "Course No.": "BTB 307",
+                    "Course Title": "Applications of Genomics and Proteomics",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech.",
+                    
+                  },
+                  {
+                    "S.No.": 8,
+                    "Course No.": "BTB 308",
+                    "Course Title": "Molecular Breeding in Field Crops",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech.",
+                    
+                  },
+                  {
+                    "S.No.": 9,
+                    "Course No.": "BTB 309",
+                    "Course Title": "Molecular Breeding of Horticultural Crops and Forest Trees",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech.",
+                    
+                  },
+                  {
+                    "S.No.": 10,
+                    "Course No.": "BTB 310",
+                    "Course Title": "Epigenetics and Gene Regulation",
+                    "Credit hours": "2+1",
+                    "Course offering Department": "Plant Biotech.",
+                    
+                  },
+                  {
+                    "S.No.": 11,
+                    "Course No.": "NCC 101",
+                    "Course Title": "National Cadet Crops",
+                    "Credit hours": "0+1#",
+                    "Course offering Department": "",
+                    
+                  }
+            ],
+            "sem7": [
+                {
+                    "S.No.": 1,
+                    "Course No.": "BTB 401",
+                    "Course Title": "Student READY Skill Development Module (Biotechnology Work experience in Industry and Institutes) in Plant biotechnology area- 20 weeks Outside the campus: 12 weeks In the campus: 8 weeks",
+                    "Credit hours": "0+20",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": 2,
+                    "Course No.": "BTB 402",
+                    "Course Title": "Educational Tour",
+                    "Credit hours": "0+2^",
+                    "Course offering Department": "Plant Biotech."
+                  }
+            ],
+            "sem8": [
+                {
+                    "S.No.": "1.",
+                    "Course No.": "BTB 403",
+                    "Course Title": "Student READY Project Formulation, Execution and Presentation",
+                    "Credit hours": "0+10",
+                    "Course offering Department": "Plant Biotech."
+                  },
+                  {
+                    "S.No.": "2.",
+                    "Course No.": "BTB 451 to BTB 458*",
+                    "Course Title": "Student READY Entrepreneurial Development in Biotechnology",
+                    "Credit hours": "0+10",
+                    "Course offering Department": "Plant Biotech."
+                  }
+            ]
             }
         }
     }
@@ -178,6 +637,7 @@ function createCourseElement(course){
         element.classList.add('selected')
         selectedCourse = element.innerHTML;
         selectedCourseStreams = Object.keys(Information[selectedCourse]);
+        console.log(selectedCourseStreams)
         createStreamSection()
     })
     return element
@@ -216,6 +676,8 @@ function createsemasterSection(){
         semasterSection.removeChild(semasterSection.lastChild);
     }
     console.log(selectedStreamSemesters);
+    selectedStreamSemesters = selectedStreamSemesters.slice(1, );
+
     selectedStreamSemesters.forEach(semaster => {
         semasterSection.appendChild(createSemasterElement(semaster));
     });    
@@ -305,23 +767,9 @@ function createSubjectSection(){
     if (subjects.length === 0){
         div.append(p)
     }
-    // if (dictIsEmpty(subjects)){
-    //     div.append(p)
-    // }
-    // else if(dictIsEmpty(subjects['theory'])){
-    //     div.append(p)
-
-    // }
-    // else{
-        // subjects['theory'].forEach(subject => {
-        //     div.appendChild(createSubjectElement(subject));
-        // });
-        // subjects['practicals'].forEach(subject => {
-        //     div.appendChild(createSubjectElement(subject));
-        // }); 
-        subjects.forEach(subject => {
-            div.appendChild(createSubjectElement(subject));
-        }); 
+    subjects.forEach(subject => {
+        div.appendChild(createSubjectElement(subject));
+    }); 
     // }
    
     return div;
@@ -334,16 +782,29 @@ function dictIsEmpty(obj) {
 function resSection(){
     let div = document.createElement('div');
     
-    let p = document.createElement('p');
-    p.textContent = "Cal GPA"
-    // p.id = "calGpa";
-    p.classList.add('button');
-    p.addEventListener("click", calculateGpa);
-    div.appendChild(p);
+    let gpaCalBtn = document.createElement('h1');
+    gpaCalBtn.textContent = "Cal GPA"
+    gpaCalBtn.classList.add('button');
+    gpaCalBtn.addEventListener("click", calculateGpa);
+    div.appendChild(gpaCalBtn);
+    
+    let subDiv = document.createElement('div');
 
-    let res = document.createElement('h1')
-    res.id = "res"
-    div.appendChild(res)
+    let tcp = document.createElement('h1');
+    tcp.id = "tcp";
+    subDiv.appendChild(tcp)
+
+    let tch = document.createElement('h1');
+    tch.id = "tch";
+    subDiv.appendChild(tch)
+
+    let gpa = document.createElement('h1')
+    gpa.id = "gpa"
+    subDiv.appendChild(gpa)
+    // subDiv.classList.add('items');
+
+    div.appendChild(subDiv);
+    div.classList.add("grid")
 
     return div
     
@@ -356,14 +817,18 @@ function createGpaSection(){
     gpaSection.appendChild(infoSection());
     gpaSection.appendChild(createSubjectSection());
     gpaSection.appendChild(resSection());
-
-    
 } 
 
+function parseExp(str){
+    str = str.replace('#', '')
+    str = str.replace('*', '')
+    str = str.replace('^', '')
+    return str
+}
 // gpa calculate
 function calculateGpa() {
-    totalCredit = 0;
-    gp = 0;
+    totalCreditPoints = 0;
+    totalCreditHours = 0;
     // alert("clicked");
     console.log(subjects);
     subjects.forEach(element => {
@@ -373,27 +838,37 @@ function calculateGpa() {
         const sub = document.getElementById(id);
         // console.log(sub);
         givenValue = sub.value;
-        // console.log(selectedOption);
-        gradePoints = parseInt(givenValue);
-        gradePoints = gradePoints%100 * 10
-        element['grade point'] = gradePoints;
+        console.log(givenValue);
+        if (givenValue){
 
-        credit_hour = eval(element['Credit hours'].replace('#', ''));
-
-        element['credit point'] = credit_hour;
-        element['credit point for subject'] = gradePoints * credit_hour
-        // console.log(element);
-        
-        // cal total
-        totalCredit+= element['credit point']
-        gp+=    credit_hour     
-        // cal gpa
-        
+            gradePoints = parseInt(givenValue);
+            console.log(gradePoints);
+    
+            gradePoints = (gradePoints/100) * 10;
+    
+            creditHours = eval(parseExp(element['Credit hours']));
+    
+            element['gp'] = gradePoints;
+            element['cp'] = gradePoints * creditHours;
+    
+            // console.log(element);
+            
+            // cal total
+            totalCreditPoints +=  element['cp'];
+    
+            totalCreditHours+=creditHours 
+        }            
     });
-    gpa = gp/totalCredit;
+    gpa = totalCreditPoints/totalCreditHours;
     // gpa.parseFloat(2);
-    const res = document.getElementById('res');
-    res.innerHTML = "GPA : " + gpa.toFixed(3);
+    const tcpRes = document.getElementById('tcp');
+    tcpRes.innerHTML = "total Credit Points : " + totalCreditPoints.toFixed(3);
+    
+    const tchRes = document.getElementById('tch');
+    tchRes.innerHTML = "total Credit Hours : " + totalCreditHours.toFixed(3);
+
+    const gpaRes = document.getElementById('gpa');
+    gpaRes.innerHTML = "GPA : " + gpa.toFixed(3);
 
     // console.log(subjects);
   }
