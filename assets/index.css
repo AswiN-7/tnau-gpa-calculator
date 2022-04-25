@@ -172,11 +172,15 @@ image{
     transform: perspective(500px);
     transition: width 20s;
 }
+.instrustion{
+    padding: 5px;
+    text-align: center;
+}
 /*==================== course ====================*/
 .grp-course{
     display: flex;
     justify-content: space-around;
-    
+    transition-delay: 5s;
 }
 .grp-streams{
     display: grid;
@@ -196,7 +200,9 @@ image{
 }
 .selected{
     background-color: var(--first-color-lighter);
-    border-radius: 50px 20px;
+    /* border-radius: 50px 20px; */
+    border-radius: 10px 100px / 120px;
+    border-radius: 112px 84px 56px 28px/28px 56px 84px 112px;
 }
 
 .stream__element{
@@ -214,7 +220,10 @@ image{
     color: var(--title-color);
     cursor: pointer;
 }
-
+.result__element{
+    text-align: center;
+    padding: 5px;
+}
 /*==================== items ====================*/
 .items{
     padding: .5rem;
@@ -256,6 +265,15 @@ image{
 }
 .subject__score{
     width: 15%;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: var(--h2-font-size);
+    /* border-radius: 50%; */
+    border-radius: 10% / 50%;
+}
+.subject__score:hover{
+    border-color: var(--first-color);
 }
 /*==================== BUTTONS ====================*/
 .button{

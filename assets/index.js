@@ -991,6 +991,7 @@ function createCourseElement(course){
         selectedCourse = element.innerHTML;
         selectedCourseStreams = Object.keys(Information[selectedCourse]);
         console.log(selectedCourseStreams)
+        instructionBlock.classList.remove("instruction-show")
         createStreamSection()
     })
     return element
@@ -1086,6 +1087,8 @@ function createSubjectElement(subject){
     var input = document.createElement("INPUT");
     input.id = subject['Course No.']
     input.setAttribute("type", "number")
+    input.setAttribute("min", 40)
+    input.setAttribute("max", 100);
     input.classList.add('subject__score');
 
  
@@ -1145,16 +1148,23 @@ function resSection(){
 
     let tcp = document.createElement('h1');
     tcp.id = "tcp";
+    tcp.classList.add("result__element")
     subDiv.appendChild(tcp)
 
     let tch = document.createElement('h1');
     tch.id = "tch";
+    tch.classList.add("result__element")
     subDiv.appendChild(tch)
 
     let gpa = document.createElement('h1')
     gpa.id = "gpa"
+    gpa.classList.add("result__element")
     subDiv.appendChild(gpa)
     // subDiv.classList.add('items');
+
+    let printOut = document.createElement('h1')
+    printOut.id = "printout"
+    subDiv.appendChild(printOut)
 
     div.appendChild(subDiv);
     div.classList.add("grid")
@@ -1220,6 +1230,13 @@ function calculateGpa() {
 
     const gpaRes = document.getElementById('gpa');
     gpaRes.innerHTML = "GPA : " + gpa.toFixed(3);
+
+
+    // printing result to user
+    // const printOut = document.getElementById('printout');
+    // printOut.classList.add('button');
+    // printOut.innerHTML = "Download result";
+    // printOut.addEventListener("click", print("../a.pdf"));
 
     // console.log(subjects);
   }
