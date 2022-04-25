@@ -1236,11 +1236,16 @@ function calculateGpa() {
     // const printOut = document.getElementById('printout');
     // printOut.classList.add('button');
     // printOut.innerHTML = "Download result";
-    // printOut.addEventListener("click", print("../a.pdf"));
+    // printOut.addEventListener("click", generatePDF);
 
     // console.log(subjects);
   }
 
 
-
+  function generatePDF() {
+    // Choose the element that our invoice is rendered in.
+    const element = document.getElementById('r4');
+    // Choose the element and save the PDF for our user.
+    html2pdf().from(element).save();
+  }
 
