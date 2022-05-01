@@ -2153,6 +2153,7 @@ const courseSection = document.getElementById('r1');
 const streamSection = document.getElementById('r2');
 const semasterSection = document.getElementById('r3');
 const gpaSection = document.getElementById('r4');
+const footer = document.getElementById('r5');
 
 const instruction = document.getElementById('Instructions')
 const instructionBlock = document.getElementById('instructionBlock')
@@ -2215,6 +2216,7 @@ function createStreamSection(){
     clearSection(streamSection);
     clearSection(semasterSection);
     clearSection(gpaSection);
+    footer.classList.add('footer-show');
     selectedCourseStreams.forEach(stream => {
         streamSection.appendChild(createStreamElement(stream));
     });    

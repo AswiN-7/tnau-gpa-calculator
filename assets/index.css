@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 260; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -81,10 +81,13 @@ body.dark-theme{
 /*========== Button Dark/Light ==========*/
 .nav_btns{
 
-    /* display: flex; */
-    /* align-items: center;   */
-    /* text-align: center;   */
+    display: flex;
+    align-items: center;  
+    text-align: center;  
+    flex-direction: column;
     padding: 4px;
+    position: sticky;
+    top: 0px;
 }
 
 .change-theme{
@@ -201,7 +204,7 @@ image{
 .selected{
     background-color: var(--first-color-lighter);
     /* border-radius: 50px 20px; */
-    border-radius: 10px 100px / 120px;
+    /* border-radius: 10px 100px / 120px; */
     border-radius: 112px 84px 56px 28px/28px 56px 84px 112px;
 }
 
@@ -302,6 +305,26 @@ image{
     align-items: center;
 }
 
+
+/*==================== footer ====================*/
+.footer{
+    width: 100%;
+    padding-top: 2rem;
+    color: #fff;
+}
+.footer__container{
+    row-gap: 3.5rem;
+}
+.footer__bg{
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+.footer-hide{
+    display: none;
+}
+.footer-show{
+    display: block;
+}
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
