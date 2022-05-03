@@ -19,16 +19,16 @@ if (selectedTheme) {
   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
   themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
 }
-
-// Activate / deactivate the theme manually with the button
-themeButton.addEventListener('click', () => {
+function toggleMode(){
     // Add or remove the dark / icon theme
     document.body.classList.toggle(darkTheme)
     themeButton.classList.toggle(iconTheme)
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
-})
+}
+// Activate / deactivate the theme manually with the button
+themeButton.addEventListener('click', toggleMode)
 
 /*
 B.E.Electrical And Electronics Engineering
@@ -553,73 +553,73 @@ Information = {
             "sem1":[
               {
                 "S.No": "1.",
-                "Course No": "AGM 121",
+                "Course No.": "AGM 121",
                 "Course Title": "Introductory Microbiology",
                 "Credit Hours": "2 + 1"
               },
               {
                 "S.No": "2.",
-                "Course No": "BIC 101*",
+                "Course No.": "BIC 101*",
                 "Course Title": "Fundamentals of Plant Biochemistry",
                 "Credit Hours": "2 + 1"
               },
               {
                 "S.No": "3.",
-                "Course No": "ENG 101*",
+                "Course No.": "ENG 101*",
                 "Course Title": "Comprehension & Communication Skills in English",
                 "Credit Hours": "1 + 1"
               },
               {
                 "S.No": "4.",
-                "Course No": "FSC 101",
+                "Course No.": "FSC 101",
                 "Course Title": "Principles of Horticulture",
                 "Credit Hours": "2 + 1"
               },
               {
                 "S.No": "5.",
-                "Course No": "FSC 102",
+                "Course No.": "FSC 102",
                 "Course Title": "Plant Propagation and Nursery Management",
                 "Credit Hours": "1 + 1"
               },
               {
                 "S.No": "6.",
-                "Course No": "MAT 111*",
+                "Course No.": "MAT 111*",
                 "Course Title": "Elementary Mathematics",
                 "Credit Hours": "1 + 1"
               },
               {
                 "S.No": "7.",
-                "Course No": "SAC  101*",
+                "Course No.": "SAC  101*",
                 "Course Title": "Fundamentals of Soil Science",
                 "Credit Hours": "2 + 1"
               },
               {
                 "S.No": "8.",
-                "Course No": "VSC 101",
+                "Course No.": "VSC 101",
                 "Course Title": "Botany of Horticultural Crops",
                 "Credit Hours": "1 + 1"
               },
               {
                 "S.No": "9.",
-                "Course No": "TAM 101* ENG 103*",
+                "Course No.": "TAM 101* ENG 103*",
                 "Course Title": "Tamil Ilakiyangalil Velanmaiyum Ariviyal Tamil  Payanpadum Development Education (For Non Tamil students)",
                 "Credit Hours": "0 + 1"
               },
               {
                 "S.No": "10.",
-                "Course No": "NSS 101 / NCC 101*",
+                "Course No.": "NSS 101 / NCC 101*",
                 "Course Title": "National Service Scheme / National Cadet Corps",
                 "Credit Hours": "0"
               },
               {
                 "S.No": "11.",
-                "Course No": "PED 101*",
+                "Course No.": "PED 101*",
                 "Course Title": "Physical Education",
                 "Credit Hours": "0"
               },
               {
                 "S.No": "12.",
-                "Course No": "PED 102*",
+                "Course No.": "PED 102*",
                 "Course Title": "Yoga for Human Excellence",
                 "Credit Hours": "NG"
               }
@@ -2173,12 +2173,19 @@ selectedStream = NaN;
 selectedStreamSemesters = NaN;
 selectedSemaster = NaN;
 
+
+totalCreditPoints = 0;
+totalCreditHours = 0;
+
 createCourseSection();
 
 function clearSection(section){
+  if(section!=null){
     while(section.firstChild){
         section.removeChild(section.lastChild);
     }
+  }
+  
 }
 // creating courses form available courses
 function createCourseSection(){
@@ -2296,9 +2303,7 @@ function createSubjectElement(subject){
     let subName = document.createElement('h2');
     subName.textContent = subject['Course No.'] + " " + subject['Course Title'];
     subName.classList.add('subject__name');
-    
-   
-
+  
     var input = document.createElement("INPUT");
     input.id = subject['Course No.']
     input.setAttribute("type", "number")
@@ -2306,7 +2311,6 @@ function createSubjectElement(subject){
     input.setAttribute("max", 100);
     input.classList.add('subject__score');
 
- 
     div.appendChild(subName);
     div.appendChild(input);
     div.classList.add('items');
@@ -2346,9 +2350,6 @@ function createSubjectSection(){
     return div;
 }
 
-function dictIsEmpty(obj) {
-    return Object.keys(obj).length === 0;
-}
 
 function resSection(){
     let div = document.createElement('div');
@@ -2356,11 +2357,12 @@ function resSection(){
     let gpaCalBtn = document.createElement('h1');
     gpaCalBtn.textContent = "Cal GPA"
     gpaCalBtn.classList.add('button');
+
     gpaCalBtn.addEventListener("click", calculateGpa);
     div.appendChild(gpaCalBtn);
     
     let subDiv = document.createElement('div');
-
+    subDiv.classList.add("section")
     let tcp = document.createElement('h1');
     tcp.id = "tcp";
     tcp.classList.add("result__element")
@@ -2401,8 +2403,79 @@ function parseExp(str){
     str = str.replace('^', '')
     return str
 }
+function createResultTableElement(element){
+  let ele = document.createElement('h2');
+  ele.textContent = element;
+  return ele
+}
+
+function generateResult(){
+    section = document.createElement('section')
+    section.id = "result"
+    section.classList.add("section")
+    section.appendChild(infoSection());
+    
+    let table = document.createElement('div');
+    table.classList.add('table')
+    heads = ["Subjects", 'Score', 'Credit Hours', "Grade Points", "Credit Points"]
+    heads.forEach(head => {
+      table.appendChild(createResultTableElement(head))
+    });
+    
+    subjects.forEach(sub =>{
+      element = sub['Course No.'] + " " + sub['Course Title'];
+      table.appendChild(createResultTableElement(element))
+      if('score' in sub){
+        table.appendChild(createResultTableElement(sub['score']))
+        table.appendChild(createResultTableElement(sub['Credit Hours']))
+        table.appendChild(createResultTableElement(sub['gp'].toFixed(3)))
+        table.appendChild(createResultTableElement(sub['cp'].toFixed(3)))
+      }
+      else{
+        table.appendChild(createResultTableElement(0))
+        table.appendChild(createResultTableElement(sub['Credit Hours']))
+        table.appendChild(createResultTableElement(0))
+        table.appendChild(createResultTableElement(0))
+      }
+    })
+    section.appendChild(table)
+
+    let subDiv = document.createElement('div');
+    subDiv.classList.add("section")
+    let tcp = document.createElement('h1');
+    tcp.textContent =  "total Credit Points : " + totalCreditPoints.toFixed(3);
+    tcp.classList.add("result__element")
+    subDiv.appendChild(tcp)
+
+    let tch = document.createElement('h1');
+    tch.textContent = "total Credit Hours : " + totalCreditHours.toFixed(3);
+    tch.classList.add("result__element")
+    subDiv.appendChild(tch);
+
+    gpaAns = totalCreditPoints/totalCreditHours;
+
+    let gpa = document.createElement('h1')
+    gpa.textContent = "GPA : " + gpaAns.toFixed(3);
+    gpa.classList.add("result__element");
+
+    subDiv.appendChild(gpa);
+    section.appendChild(subDiv);
+    gpaSection.appendChild(section)
+
+    // section.classList.add("hide")
+
+    // let subName = document.createElement('h2');
+    // subName.textContent = subject['Course No.'] + " " + subject['Course Title'];
+    // subName.classList.add('subject__name');
+
+
+}
+
 // gpa calculate
 function calculateGpa() {
+    section = document.getElementById('result')
+    clearSection(section);
+
     totalCreditPoints = 0;
     totalCreditHours = 0;
     // alert("clicked");
@@ -2419,9 +2492,9 @@ function calculateGpa() {
 
             gradePoints = parseInt(givenValue);
             console.log(gradePoints);
-    
+            element['score'] = gradePoints
+
             gradePoints = (gradePoints/100) * 10;
-    
             creditHours = eval(parseExp(element['Credit Hours']));
     
             element['gp'] = gradePoints;
@@ -2445,13 +2518,43 @@ function calculateGpa() {
 
     const gpaRes = document.getElementById('gpa');
     gpaRes.innerHTML = "GPA : " + gpa.toFixed(3);
-
+    console.log(subjects);
+    
+    generateResult();
 
     // printing result to user
-    // const printOut = document.getElementById('printout');
-    // printOut.classList.add('button');
-    // printOut.innerHTML = "Download result";
-    // printOut.addEventListener("click", generatePDF);
+    const printOut = document.getElementById('printout');
+    printOut.classList.add('button');
+    printOut.innerHTML = "Download result";
+    printOut.addEventListener("click", ()=>{generatePDF("result")});
 
     // console.log(subjects);
   }
+
+  function generatePDF(id) {
+    let changed = 0;  
+    // toggleMode();
+
+    if(getCurrentTheme().valueOf() == 'dark'.valueOf()){
+      console.log(getCurrentTheme());
+      toggleMode();
+      changed=1;
+    }
+    let opt = {
+        margin : 1,
+        filename: selectedSemaster + " result",
+        enableLinks: true,
+        image: { type: 'png', quality: 1 },
+        html2canvas: {
+            scale: 2,
+            useCORS: true,
+            letterRendering: true,
+        },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+    }
+    html2pdf().set(opt).from(document.getElementById(id)).save();
+
+    if(changed==1){
+      // toggleMode(); 
+    }
+}

@@ -236,6 +236,12 @@ image{
     align-items: center;
     justify-content: space-between;
 }
+.table{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    grid-gap: 1rem;
+}
 .flag{
     padding: 5px;
     margin: 3px;
@@ -325,7 +331,6 @@ image{
 .footer-show{
     display: block;
 }
-
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width : 650px) {
