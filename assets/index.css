@@ -313,6 +313,9 @@ image{
 
 
 /*==================== footer ====================*/
+.footer__subtitle{
+    padding-left: 5%;
+} 
 .footer{
     width: 100%;
     padding-top: 2rem;
@@ -330,6 +333,18 @@ image{
 }
 .footer-show{
     display: block;
+}
+.contibution__person{
+padding-left: 2%;
+padding-top: 1%;
+}
+.contribution__info{
+padding-top: .5%;
+padding-left: 4%;
+}
+.connect__item{
+    padding-top: 1%;
+    padding-left: 2%;
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
