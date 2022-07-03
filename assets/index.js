@@ -370,7 +370,7 @@ function calculateGpa() {
         console.log(givenValue);
         if (givenValue){
 
-            gradePoints = parseInt(givenValue);
+            gradePoints = parseFloat(givenValue);
             console.log(gradePoints);
             element['score'] = gradePoints
 
