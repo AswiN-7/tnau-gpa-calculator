@@ -34,6 +34,350 @@ forestry
 
 Information = {
   "UG": {
+    "B.Tech. (Agricultural Engineering)": {
+      "course": "B.Tech. (Agricultural Engineering)",
+      "sem1": [
+        {
+          "Course No.": "MAT102",
+          "Course Title": "ENGINEERING MATHEMATICS I",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "PHY101",
+          "Course Title": "ENGINEERING PHYSICS",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SAC121",
+          "Course Title": "ENGINEERING CHEMISTRY",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SAC111",
+          "Course Title": "PRINCIPLES OF SOIL SCIENCE",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE101",
+          "Course Title": "SURVEYING AND LEVELLING",
+          "Credit Hours": "1+2"
+        },
+        {
+          "Course No.": "BAE102",
+          "Course Title": "ENGINEERING MECHANICS",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE103",
+          "Course Title": "ENGINEERING DRAWING",
+          "Credit Hours": "0+2"
+        },
+        {
+          "Course No.": "AGR111",
+          "Course Title": "PRINCIPLES OF AGRONOMY",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "TAM101/ENG103",
+          "Course Title": "TAMIL/DEVELOPMENT EDUCATION",
+          "Credit Hours": "0+1"
+        },
+        {
+          "Course No.": "NSS101",
+          "Course Title": "NATIONAL SERVICE SCHEME",
+          "Credit Hours": "0+1"
+        },
+        {
+          "Course No.": "PED101",
+          "Course Title": "PHYSICAL EDUCATION",
+          "Credit Hours": "0+1"
+        },
+        {
+          "Course No.": "PED102",
+          "Course Title": "YOGA FOR HUMAN EXCELLENCE",
+          "Credit Hours": "0+1"
+        }
+      ],
+      "sem2": [
+        {
+          "Course No.": "MAT104",
+          "Course Title": "ENGINEERING MATHEMATICS - II",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "ENS101",
+          "Course Title": "ENVIRONMENTAL SCIENCE AND DISASTER MANAGEMENT",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE104",
+          "Course Title": "STRENGTH OF MATERIALS",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "BAE105",
+          "Course Title": "SOIL MECHANICS",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "BAE106",
+          "Course Title": "WORKSHOP TECHNOLOGY AND PRACTICES",
+          "Credit Hours": "1+2"
+        },
+        {
+          "Course No.": "BAE107",
+          "Course Title": "THEORY OF MACHINES",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "BAE108",
+          "Course Title": "HEAT AND MASS TRANSFER",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "COM103",
+          "Course Title": "WEB DESIGNING AND INTERNET APPLICATIONS",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "HOR111",
+          "Course Title": "PRINCIPLES OF HORTICULTURAL CROPS AND PLANT PROTECTION",
+          "Credit Hours": "1+1"
+        }
+      ],
+      "sem3": [
+        {
+          "Course No.": "MAT202",
+          "Course Title": "ENGINEERING MATHEMATICS - III",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE201",
+          "Course Title": "THEORY OF STRUCTURES",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "BAE202",
+          "Course Title": "FLUID MECHANICS AND OPEN CHANNEL HYDRAULICS",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE203",
+          "Course Title": "MACHINE DESIGN",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "BAE204",
+          "Course Title": "REFRIGERATION AND AIR CONDITIONING",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "BAE205",
+          "Course Title": "ELECTRICAL MACHINES AND POWER UTILIZATION",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE206",
+          "Course Title": "THERMODYNAMICS",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SWE201",
+          "Course Title": "WATERSHED HYDROLOGY",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "PFE201",
+          "Course Title": "ENGINEERING PROPERTIES OF AGRICULTURAL PRODUCE",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "COM201",
+          "Course Title": "COMPUTER PROGRAMMING AND DATA STRUCTURES",
+          "Credit Hours": "1+!"
+        }
+      ],
+      "sem4": [
+        {
+          "Course No.": "BAE207",
+          "Course Title": "APPLIED ELECTRONICS AND INSTRUMENTATION",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE208",
+          "Course Title": "BUILDING CONSTRUCTION AND COST ESTIMATION",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "BAE209",
+          "Course Title": "AUTOCAD APPLICATIONS",
+          "Credit Hours": "0+2"
+        },
+        {
+          "Course No.": "FMP201",
+          "Course Title": "TRACTOR AND AUTOMOTIVE ENGINES",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "PFE202",
+          "Course Title": "POST HARVEST ENGINEERING OF CEREALS, PULSES AND OIL SEEDS",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "IDE201",
+          "Course Title": "IRRIGATION ENGINEERING",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "IDE202",
+          "Course Title": "GROUNDWATER, WELLS AND PUMPS",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "REE201",
+          "Course Title": "FUNDAMENTALS OF RENEWABLE ENERGY - SOLAR AND WIND ENERGY",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AEX201",
+          "Course Title": "COMMUNICATION SKILLS AND PERSONALITY DEVELOPMENT",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "AGE201",
+          "Course Title": "IN PLANT TRAINING - I",
+          "Credit Hours": "0+2"
+        }
+      ],
+      "sem5": [
+        {
+          "Course No.": "FMP301",
+          "Course Title": "TRACTOR SYSTEMS AND CONTROL",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "FMP302",
+          "Course Title": "FARM MACHINERY AND EQUIPMENT",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "PFE301",
+          "Course Title": "POST HARVEST ENGINEERING OF HORTICULTURAL CROPS",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "PFE302",
+          "Course Title": "DAIRY AND FOOD ENGINEERING",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SWE301",
+          "Course Title": "SOIL AND WATER CONSERVATION ENGINEERING",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SWE302",
+          "Course Title": "WATERSHED PLANNING AND MANAGEMENT",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "REE301",
+          "Course Title": "ALTERNATE RENEWABLE POWER SOURCES",
+          "Credit Hours": "2+!"
+        },
+        {
+          "Course No.": "ARM301",
+          "Course Title": "ENTREPRENEURSHIP DEVELOPMENT AND BUSINESS MANAGEMENT",
+          "Credit Hours": "1+1"
+        }
+      ],
+      "sem6": [
+        {
+          "Course No.": "FMP303",
+          "Course Title": "FARM MACHINERY AND EQUIPMENT II",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "FMP304",
+          "Course Title": "TRACTOR AND FARM MACHINERY OPERATION AND MAINTENANCE",
+          "Credit Hours": "0+2"
+        },
+        {
+          "Course No.": "PFE303",
+          "Course Title": "AGRICULTURAL STRUCTURES AND ENVIRONMENTAL CONTROL",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SWE303",
+          "Course Title": "WATER HARVESTING AND SOIL CONSERVATION STRUCTURES",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "IDE301",
+          "Course Title": "DRAINAGE ENGINEERING",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "IDE302",
+          "Course Title": "SPRINKLER AND MICRO IRRIGATION SYSTEMS",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "REE302",
+          "Course Title": "BIOENERGY SYSTEMS - DESIGN AND APPLICATIONS",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AGE301",
+          "Course Title": "IN PLANT TRAINING II",
+          "Credit Hours": "0+2"
+        },
+        {
+          "Course No.": "AGE302",
+          "Course Title": "PROJECT PLANNING AND REPORT WRITING I",
+          "Credit Hours": "0+5"
+        }
+      ],
+      "sem7": [
+        {
+          "Course No.": "1",
+          "Course Title": "ELECTIVE COURSE I",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "2",
+          "Course Title": "ELECTIVE COURSE II",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "3",
+          "Course Title": "ELECTIVE COURSE III",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AGE401",
+          "Course Title": "PROJECT PLANNING AND REPORT WRITING II",
+          "Credit Hours": "0+5"
+        },
+        {
+          "Course No.": "AGE402",
+          "Course Title": "EXPERIMENTAL LEARNING ON CAMPUS",
+          "Credit Hours": "0+10"
+        }
+      ],
+      "sem8": [
+        {
+          "Course No.": "AGE403",
+          "Course Title": "INDUSTRIAL ATTACHMENT/INTERNSHIP",
+          "Credit Hours": "0+16"
+        },
+        {
+          "Course No.": "AGE404",
+          "Course Title": "EDUCATIONAL TOUR",
+          "Credit Hours": "0+1"
+        }
+      ]
+    },
     "B. Tech. (Food Technology)": {
       "course": "B. Tech. (Food Technology)",
       "sem1": [
@@ -71,7 +415,7 @@ Information = {
           "Course No.": "COM 102",
           "Course Title": "Computer Programming and Data Structures",
           "Credit Hours": "2+1"
-        }  
+        }
       ],
       "sem2": [
         {
@@ -889,496 +1233,496 @@ Information = {
     "B.S (Agribusiness Management)": {
       "course": "B.S (Agribusiness Management)",
       "sem1": [
-          {
-              "S.No": 1,
-              "Course No.": "MAT 111",
-              "Course Title": "Elementary Mathematics",
-              "Credit Hours": "1 + 1"
-          },
-          {
-              "S.No": 2,
-              "Course No.": "ENG 102",
-              "Course Title": "English for Business Communication",
-              "Credit Hours": "1 + 1"
-          },
-          {
-              "S.No": 3,
-              "Course No.": "ENS 101",
-              "Course Title": "Environmental Sciences and Disaster management",
-              "Credit Hours": "2 + 1"
-          },
-          {
-              "S.No": 4,
-              "Course No.": "ARM 101",
-              "Course Title": "Introduction to Agribusiness Management",
-              "Credit Hours": "2 + 0"
-          },
-          {
-              "S.No": 5,
-              "Course No.": "ARM 102",
-              "Course Title": "Agricultural Marketing and Price Analysis",
-              "Credit Hours": "2 + 1"
-          },
-          {
-              "S.No": 6,
-              "Course No.": "ARM 103",
-              "Course Title": "Fundamentals of Human Resource Management",
-              "Credit Hours": "2 + 1"
-          },
-          {
-              "S.No": 7,
-              "Course No.": "ARM  104",
-              "Course Title": "Introduction to Managerial Economics",
-              "Credit Hours": "2 + 1"
-          },
-          {
-              "S.No": 8,
-              "Course No.": "NSS / NCC 101",
-              "Course Title": "National Service Scheme / National Cadet Corps*",
-              "Credit Hours": "0 + 1"
-          },
-          {
-              "S.No": 9,
-              "Course No.": "PED 101",
-              "Course Title": "Physical Education*",
-              "Credit Hours": "0 + 1"
-          },
-          {
-              "S.No": 10,
-              "Course No.": "PED 102",
-              "Course Title": "Yoga for Human Excellence*",
-              "Credit Hours": "0 + 1"
-          }
+        {
+          "S.No": 1,
+          "Course No.": "MAT 111",
+          "Course Title": "Elementary Mathematics",
+          "Credit Hours": "1 + 1"
+        },
+        {
+          "S.No": 2,
+          "Course No.": "ENG 102",
+          "Course Title": "English for Business Communication",
+          "Credit Hours": "1 + 1"
+        },
+        {
+          "S.No": 3,
+          "Course No.": "ENS 101",
+          "Course Title": "Environmental Sciences and Disaster management",
+          "Credit Hours": "2 + 1"
+        },
+        {
+          "S.No": 4,
+          "Course No.": "ARM 101",
+          "Course Title": "Introduction to Agribusiness Management",
+          "Credit Hours": "2 + 0"
+        },
+        {
+          "S.No": 5,
+          "Course No.": "ARM 102",
+          "Course Title": "Agricultural Marketing and Price Analysis",
+          "Credit Hours": "2 + 1"
+        },
+        {
+          "S.No": 6,
+          "Course No.": "ARM 103",
+          "Course Title": "Fundamentals of Human Resource Management",
+          "Credit Hours": "2 + 1"
+        },
+        {
+          "S.No": 7,
+          "Course No.": "ARM  104",
+          "Course Title": "Introduction to Managerial Economics",
+          "Credit Hours": "2 + 1"
+        },
+        {
+          "S.No": 8,
+          "Course No.": "NSS / NCC 101",
+          "Course Title": "National Service Scheme / National Cadet Corps*",
+          "Credit Hours": "0 + 1"
+        },
+        {
+          "S.No": 9,
+          "Course No.": "PED 101",
+          "Course Title": "Physical Education*",
+          "Credit Hours": "0 + 1"
+        },
+        {
+          "S.No": 10,
+          "Course No.": "PED 102",
+          "Course Title": "Yoga for Human Excellence*",
+          "Credit Hours": "0 + 1"
+        }
       ],
       "sem2": [
-          {
-              "S.No": 1,
-              "Course No.": "SAC 101",
-              "Course Title": "Fundamentals of Soil Science",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 2,
-              "Course No.": "FSN 111",
-              "Course Title": "Principles of Food Science and Nutrition",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 3,
-              "Course No.": "AGR 114",
-              "Course Title": "Crop Production Technology",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 4,
-              "Course No.": "HOR 112",
-              "Course Title": "Production Technology of Fruit and Plantation Crops",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 5,
-              "Course No.": "SWE 112",
-              "Course Title": "Soil and Water Conservation Engineering",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 6,
-              "Course No.": "TAM 101/ENG 103",
-              "Course Title": "Agriculture as in Tamil Literature / Development Education",
-              "Credit Hours": "0+1"
-          },
-          {
-              "S.No": 7,
-              "Course No.": "ARM 105",
-              "Course Title": "Introduction to Operations Management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 8,
-              "Course No.": "ARM 106",
-              "Course Title": "Business Communication",
-              "Credit Hours": "0+1"
-          },
-          {
-              "S.No": 9,
-              "Course No.": "ARM 107",
-              "Course Title": "Management Accounting",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 10,
-              "Course No.": "ARM 108",
-              "Course Title": "Fundamentals of Marketing Management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 11,
-              "Course No.": "ARM 109",
-              "Course Title": "Introduction to Organizational Behaviour",
-              "Credit Hours": "2+0"
-          },
-          {
-              "S.No": 12,
-              "Course No.": "NSS / NCC101",
-              "Course Title": "National Service Scheme / National Cadet Corps#",
-              "Credit Hours": "0+1"
-          },
-          {
-              "S.No": 13,
-              "Course No.": "PED 101",
-              "Course Title": "Physical Education#",
-              "Credit Hours": "0+1"
-          }
+        {
+          "S.No": 1,
+          "Course No.": "SAC 101",
+          "Course Title": "Fundamentals of Soil Science",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 2,
+          "Course No.": "FSN 111",
+          "Course Title": "Principles of Food Science and Nutrition",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 3,
+          "Course No.": "AGR 114",
+          "Course Title": "Crop Production Technology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 4,
+          "Course No.": "HOR 112",
+          "Course Title": "Production Technology of Fruit and Plantation Crops",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 5,
+          "Course No.": "SWE 112",
+          "Course Title": "Soil and Water Conservation Engineering",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 6,
+          "Course No.": "TAM 101/ENG 103",
+          "Course Title": "Agriculture as in Tamil Literature / Development Education",
+          "Credit Hours": "0+1"
+        },
+        {
+          "S.No": 7,
+          "Course No.": "ARM 105",
+          "Course Title": "Introduction to Operations Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 8,
+          "Course No.": "ARM 106",
+          "Course Title": "Business Communication",
+          "Credit Hours": "0+1"
+        },
+        {
+          "S.No": 9,
+          "Course No.": "ARM 107",
+          "Course Title": "Management Accounting",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 10,
+          "Course No.": "ARM 108",
+          "Course Title": "Fundamentals of Marketing Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 11,
+          "Course No.": "ARM 109",
+          "Course Title": "Introduction to Organizational Behaviour",
+          "Credit Hours": "2+0"
+        },
+        {
+          "S.No": 12,
+          "Course No.": "NSS / NCC101",
+          "Course Title": "National Service Scheme / National Cadet Corps#",
+          "Credit Hours": "0+1"
+        },
+        {
+          "S.No": 13,
+          "Course No.": "PED 101",
+          "Course Title": "Physical Education#",
+          "Credit Hours": "0+1"
+        }
       ],
       "sem3": [
-          {
-              "S.No": 1,
-              "Course No.": "AEC 201",
-              "Course Title": "Farm Management, Production and Resource Economics",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 2,
-              "Course No.": "PBG 214",
-              "Course Title": "Principles of Genetics and Methods of Plant Breeding",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 3,
-              "Course No.": "AEN 221",
-              "Course Title": "Fundamentals of Entomology & Pest management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 4,
-              "Course No.": "AGM 221",
-              "Course Title": "General and Applied Microbiology",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 5,
-              "Course No.": "FMP 211",
-              "Course Title": "Farm Power and Machinery",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 6,
-              "Course No.": "AMP 201",
-              "Course Title": "Livestock and Poultry Management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 7,
-              "Course No.": "SST 201",
-              "Course Title": "Principles of Seed Technology",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 8,
-              "Course No.": "HOR 211",
-              "Course Title": "Production Technology of Vegetables and Spices",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 9,
-              "Course No.": "ARM 201",
-              "Course Title": "Fundamentals of Financial Management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 10,
-              "Course No.": "ARM 202",
-              "Course Title": "Study tour *",
-              "Credit Hours": "0"
-          },
-          {
-              "S.No": 11,
-              "Course No.": "NSS/NCC 101",
-              "Course Title": "National Service Scheme / National Cadet Corps#",
-              "Credit Hours": "0+1"
-          },
-          {
-              "S.No": 12,
-              "Course No.": "PED 101",
-              "Course Title": "Physical Education#",
-              "Credit Hours": "0+1"
-          }
+        {
+          "S.No": 1,
+          "Course No.": "AEC 201",
+          "Course Title": "Farm Management, Production and Resource Economics",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 2,
+          "Course No.": "PBG 214",
+          "Course Title": "Principles of Genetics and Methods of Plant Breeding",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 3,
+          "Course No.": "AEN 221",
+          "Course Title": "Fundamentals of Entomology & Pest management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 4,
+          "Course No.": "AGM 221",
+          "Course Title": "General and Applied Microbiology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 5,
+          "Course No.": "FMP 211",
+          "Course Title": "Farm Power and Machinery",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 6,
+          "Course No.": "AMP 201",
+          "Course Title": "Livestock and Poultry Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 7,
+          "Course No.": "SST 201",
+          "Course Title": "Principles of Seed Technology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 8,
+          "Course No.": "HOR 211",
+          "Course Title": "Production Technology of Vegetables and Spices",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 9,
+          "Course No.": "ARM 201",
+          "Course Title": "Fundamentals of Financial Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 10,
+          "Course No.": "ARM 202",
+          "Course Title": "Study tour *",
+          "Credit Hours": "0"
+        },
+        {
+          "S.No": 11,
+          "Course No.": "NSS/NCC 101",
+          "Course Title": "National Service Scheme / National Cadet Corps#",
+          "Credit Hours": "0+1"
+        },
+        {
+          "S.No": 12,
+          "Course No.": "PED 101",
+          "Course Title": "Physical Education#",
+          "Credit Hours": "0+1"
+        }
       ],
       "sem4": [
-          {
-              "S.No": 1,
-              "Course No.": "PAT 222",
-              "Course Title": "Introductory Plant Pathology",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 2,
-              "Course No.": "MAT 222",
-              "Course Title": "Operations Research",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 3,
-              "Course No.": "STA 201",
-              "Course Title": "Statistical Methods",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 4,
-              "Course No.": "HOR 212",
-              "Course Title": "Production  Technology  of  ornamental  crops,  MAP \nand landscaping",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 5,
-              "Course No.": "AGR 204",
-              "Course Title": "Farming System and Sustainable agriculture",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 6,
-              "Course No.": "FOR 211",
-              "Course Title": "Forest Products and Commercial Utilization",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 7,
-              "Course No.": "ERG 211",
-              "Course Title": "Renewable Energy & Green technology",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 8,
-              "Course No.": "ARM 203",
-              "Course Title": "Agricultural Marketing Institutions",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 9,
-              "Course No.": "ARM 204",
-              "Course Title": "Agribusiness Environment Analysis",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 10,
-              "Course No.": "ARM 205",
-              "Course Title": "Financial Services",
-              "Credit Hours": "2+0"
-          },
-          {
-              "S.No": 11,
-              "Course No.": "ARM 206",
-              "Course Title": "Rural Marketing",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 12,
-              "Course No.": "ARM 207  ",
-              "Course Title": "Microfinance",
-              "Credit Hours": "1+0"
-          },
-          {
-              "S.No": 13,
-              "Course No.": "NSS / NCC101",
-              "Course Title": "National Service Scheme / National Cadet Corps#",
-              "Credit Hours": "0+1"
-          },
-          {
-              "S.No": 14,
-              "Course No.": "PED 101",
-              "Course Title": "Physical Education#",
-              "Credit Hours": "0+1"
-          }
+        {
+          "S.No": 1,
+          "Course No.": "PAT 222",
+          "Course Title": "Introductory Plant Pathology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 2,
+          "Course No.": "MAT 222",
+          "Course Title": "Operations Research",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 3,
+          "Course No.": "STA 201",
+          "Course Title": "Statistical Methods",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 4,
+          "Course No.": "HOR 212",
+          "Course Title": "Production  Technology  of  ornamental  crops,  MAP \nand landscaping",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 5,
+          "Course No.": "AGR 204",
+          "Course Title": "Farming System and Sustainable agriculture",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 6,
+          "Course No.": "FOR 211",
+          "Course Title": "Forest Products and Commercial Utilization",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 7,
+          "Course No.": "ERG 211",
+          "Course Title": "Renewable Energy & Green technology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 8,
+          "Course No.": "ARM 203",
+          "Course Title": "Agricultural Marketing Institutions",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 9,
+          "Course No.": "ARM 204",
+          "Course Title": "Agribusiness Environment Analysis",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 10,
+          "Course No.": "ARM 205",
+          "Course Title": "Financial Services",
+          "Credit Hours": "2+0"
+        },
+        {
+          "S.No": 11,
+          "Course No.": "ARM 206",
+          "Course Title": "Rural Marketing",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 12,
+          "Course No.": "ARM 207  ",
+          "Course Title": "Microfinance",
+          "Credit Hours": "1+0"
+        },
+        {
+          "S.No": 13,
+          "Course No.": "NSS / NCC101",
+          "Course Title": "National Service Scheme / National Cadet Corps#",
+          "Credit Hours": "0+1"
+        },
+        {
+          "S.No": 14,
+          "Course No.": "PED 101",
+          "Course Title": "Physical Education#",
+          "Credit Hours": "0+1"
+        }
       ],
       "sem5": [
-          {
-              "S.No": 1,
-              "Course No.": "ABT 301",
-              "Course Title": "Plant Biotechnology",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 2,
-              "Course No.": "AEC 303",
-              "Course Title": "Econometric Modeling",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 3,
-              "Course No.": "TIP 301",
-              "Course Title": "International Trade",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 4,
-              "Course No.": "ARM 302",
-              "Course Title": "Project Management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 5,
-              "Course No.": "ARM 303",
-              "Course Title": "Entrepreneurship and Small Business Management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 6,
-              "Course No.": "ARM 304",
-              "Course Title": "Supply Chain Management",
-              "Credit Hours": "2+0"
-          },
-          {
-              "S.No": 7,
-              "Course No.": "ARM 305",
-              "Course Title": "E- Business",
-              "Credit Hours": "2+0"
-          },
-          {
-              "S.No": 8,
-              "Course No.": "ARM 306",
-              "Course Title": "Enterprise Resource Planning",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 9,
-              "Course No.": "ARM 307",
-              "Course Title": "Business Analytics",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 10,
-              "Course No.": "ARM 308",
-              "Course Title": "Introduction to Business Law and Taxation",
-              "Credit Hours": "2+0"
-          },
-          {
-              "S.No": 11,
-              "Course No.": " ",
-              "Course Title": "NCC#",
-              "Credit Hours": "0+1"
-          }
+        {
+          "S.No": 1,
+          "Course No.": "ABT 301",
+          "Course Title": "Plant Biotechnology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 2,
+          "Course No.": "AEC 303",
+          "Course Title": "Econometric Modeling",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 3,
+          "Course No.": "TIP 301",
+          "Course Title": "International Trade",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 4,
+          "Course No.": "ARM 302",
+          "Course Title": "Project Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 5,
+          "Course No.": "ARM 303",
+          "Course Title": "Entrepreneurship and Small Business Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 6,
+          "Course No.": "ARM 304",
+          "Course Title": "Supply Chain Management",
+          "Credit Hours": "2+0"
+        },
+        {
+          "S.No": 7,
+          "Course No.": "ARM 305",
+          "Course Title": "E- Business",
+          "Credit Hours": "2+0"
+        },
+        {
+          "S.No": 8,
+          "Course No.": "ARM 306",
+          "Course Title": "Enterprise Resource Planning",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 9,
+          "Course No.": "ARM 307",
+          "Course Title": "Business Analytics",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 10,
+          "Course No.": "ARM 308",
+          "Course Title": "Introduction to Business Law and Taxation",
+          "Credit Hours": "2+0"
+        },
+        {
+          "S.No": 11,
+          "Course No.": " ",
+          "Course Title": "NCC#",
+          "Credit Hours": "0+1"
+        }
       ],
       "sem6": [
-          {
-              "S.No": 1,
-              "Course No.": "SAC 355",
-              "Course Title": "Crop and Pesticide Chemistry",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 2,
-              "Course No.": "PAT 321",
-              "Course Title": "Diseases of Crop Plants and their Management",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 3,
-              "Course No.": "COM 311",
-              "Course Title": "Applied Agro-Informatics",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 4,
-              "Course No.": "APE 311",
-              "Course Title": "Post Harvest and Food Engineering",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 5,
-              "Course No.": "TIP 302",
-              "Course Title": "Intellectual Property Rights",
-              "Credit Hours": "1+0"
-          },
-          {
-              "S.No": 6,
-              "Course No.": "AGR 304",
-              "Course Title": "Principles of Organic Farming",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 7,
-              "Course No.": "AEX 313",
-              "Course Title": "Fundamentals of Extension Education",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 8,
-              "Course No.": "ARM 309",
-              "Course Title": "Introduction to Capital and Commodity Markets",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 9,
-              "Course No.": "ARM 310",
-              "Course Title": "Retailing Management",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 10,
-              "Course No.": "ARM 311",
-              "Course Title": "Business Research Methods",
-              "Credit Hours": "2+1"
-          },
-          {
-              "S.No": 11,
-              "Course No.": "### ###",
-              "Course Title": "Optional course",
-              "Credit Hours": "1+1"
-          },
-          {
-              "S.No": 12,
-              "Course No.": "###",
-              "Course Title": "NCC#",
-              "Credit Hours": "0+1"
-          }
+        {
+          "S.No": 1,
+          "Course No.": "SAC 355",
+          "Course Title": "Crop and Pesticide Chemistry",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 2,
+          "Course No.": "PAT 321",
+          "Course Title": "Diseases of Crop Plants and their Management",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 3,
+          "Course No.": "COM 311",
+          "Course Title": "Applied Agro-Informatics",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 4,
+          "Course No.": "APE 311",
+          "Course Title": "Post Harvest and Food Engineering",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 5,
+          "Course No.": "TIP 302",
+          "Course Title": "Intellectual Property Rights",
+          "Credit Hours": "1+0"
+        },
+        {
+          "S.No": 6,
+          "Course No.": "AGR 304",
+          "Course Title": "Principles of Organic Farming",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 7,
+          "Course No.": "AEX 313",
+          "Course Title": "Fundamentals of Extension Education",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 8,
+          "Course No.": "ARM 309",
+          "Course Title": "Introduction to Capital and Commodity Markets",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 9,
+          "Course No.": "ARM 310",
+          "Course Title": "Retailing Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 10,
+          "Course No.": "ARM 311",
+          "Course Title": "Business Research Methods",
+          "Credit Hours": "2+1"
+        },
+        {
+          "S.No": 11,
+          "Course No.": "### ###",
+          "Course Title": "Optional course",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 12,
+          "Course No.": "###",
+          "Course Title": "NCC#",
+          "Credit Hours": "0+1"
+        }
       ],
       "sem7": [
-          {
-              "S.No": 1,
-              "Course No.": 1,
-              "Course Title": "General Orientation & On campus training by different faculties",
-              "Credit Hours": "20"
-          },
-          {
-              "S.No": 2,
-              "Course No.": 2,
-              "Course Title": "Village attachment/ Unit attachment in Univ./College.  \nKVK /Research Station",
-              "Credit Hours": "20"
-          },
-          {
-              "S.No": 3,
-              "Course No.": 3,
-              "Course Title": "Industry Internship",
-              "Credit Hours": "20"
-          },
-          {
-              "S.No": 4,
-              "Course No.": 4,
-              "Course Title": "Project Report Preparation, Presentation and \nEvaluation",
-              "Credit Hours": "1"
-          },
-          {
-              "S.No": 5,
-              "Course No.": 5,
-              "Course Title": "All India study Tour *",
-              "Credit Hours": "0"
-          }
+        {
+          "S.No": 1,
+          "Course No.": 1,
+          "Course Title": "General Orientation & On campus training by different faculties",
+          "Credit Hours": "20"
+        },
+        {
+          "S.No": 2,
+          "Course No.": 2,
+          "Course Title": "Village attachment/ Unit attachment in Univ./College.  \nKVK /Research Station",
+          "Credit Hours": "20"
+        },
+        {
+          "S.No": 3,
+          "Course No.": 3,
+          "Course Title": "Industry Internship",
+          "Credit Hours": "20"
+        },
+        {
+          "S.No": 4,
+          "Course No.": 4,
+          "Course Title": "Project Report Preparation, Presentation and \nEvaluation",
+          "Credit Hours": "1"
+        },
+        {
+          "S.No": 5,
+          "Course No.": 5,
+          "Course Title": "All India study Tour *",
+          "Credit Hours": "0"
+        }
       ],
       "sem8": [
-          {
-              "S.No": 1,
-              "Course No.": 1,
-              "Course Title": "Module-I",
-              "Credit Hours": "0+10"
-          },
-          {
-              "S.No": 2,
-              "Course No.": 2,
-              "Course Title": "Module-II",
-              "Credit Hours": "0+10"
-          }
+        {
+          "S.No": 1,
+          "Course No.": 1,
+          "Course Title": "Module-I",
+          "Credit Hours": "0+10"
+        },
+        {
+          "S.No": 2,
+          "Course No.": 2,
+          "Course Title": "Module-II",
+          "Credit Hours": "0+10"
+        }
       ]
-  },
+    },
     "B.Sc.(Hons.) Agriculture": {
       "course": "B.Sc.(Hons.) Agriculture",
       "sem1": [

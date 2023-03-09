@@ -346,6 +346,11 @@ padding-left: 4%;
     padding-top: 1%;
     padding-left: 2%;
 }
+.bottom__social{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width : 650px) {
