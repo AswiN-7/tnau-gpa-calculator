@@ -347,9 +347,10 @@ padding-left: 4%;
     padding-left: 2%;
 }
 .bottom__social{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    font-size: var(--h1-font-size);
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
