@@ -1747,8 +1747,8 @@ Information = {
         {
           "S.No": 4,
           "Course No.": "FOR 111",
-          "Course Title": "Introduction to Forestry",
-          "Credit Hours": "1+ 1"
+          "Course Title": "Introduction to Forestry & Agroforestry",
+          "Credit Hours": "1+1"
         },
         {
           "S.No": 5,
@@ -1782,8 +1782,8 @@ Information = {
         },
         {
           "S.No": 10,
-          "Course No.": "TAM101/ ENG101",
-          "Course Title": "Development Education",
+          "Course No.": "TAM101/ ENG103",
+          "Course Title": "Ilakkiyangalail Velanmai/Development Education",
           "Credit Hours": "0+1"
         },
         {
@@ -1801,33 +1801,33 @@ Information = {
         {
           "S.No": 13,
           "Course No.": "PED102",
-          "Course Title": "Yoga for human excellence",
+          "Course Title": "Yoga for Human Excellence",
           "Credit Hours": "0+1*"
         }
       ],
       "sem2": [
         {
           "S.No": 1,
-          "Course No.": "SWE 101",
+          "Course No.": "SWE 112",
           "Course Title": "Soil and Water Conservation Engineering",
-          "Credit Hours": "2+1"
+          "Credit Hours": "1+1"
         },
         {
           "S.No": 2,
           "Course No.": "CRP 101",
-          "Course Title": "Fundamentals of crop Physiology",
+          "Course Title": "Fundamentals of Crop Physiology",
           "Credit Hours": "2+1"
         },
         {
           "S.No": 3,
-          "Course No.": "AEC 101",
+          "Course No.": "AEC 102",
           "Course Title": "Fundamentals of Agricultural Economics",
           "Credit Hours": "1+1"
         },
         {
           "S.No": 4,
-          "Course No.": "PAT   101",
-          "Course Title": "Fundamentals of Plant Pathology",
+          "Course No.": "AGM 101",
+          "Course Title": "Fundamentals of Microbiology",
           "Credit Hours": "2+1"
         },
         {
@@ -1844,36 +1844,30 @@ Information = {
         },
         {
           "S.No": 7,
-          "Course No.": "FMP 111",
-          "Course Title": "Farm Machinery and Power",
-          "Credit Hours": "1+1"
-        },
-        {
-          "S.No": 8,
           "Course No.": "AGR 102",
           "Course Title": "Introductory Agro-meteorology & Climate Change",
           "Credit Hours": "1+1"
         },
         {
-          "S.No": 9,
+          "S.No": 8,
           "Course No.": "HOR 112",
           "Course Title": "Production Technology for Fruit and Plantation Crops",
           "Credit Hours": "1+1"
         },
         {
-          "S.No": 10,
+          "S.No": 9,
           "Course No.": "RSG 101",
           "Course Title": "Geo- informatics for Precision Farming",
           "Credit Hours": "1+0"
         },
         {
-          "S.No": 11,
+          "S.No": 10,
           "Course No.": "NSS/NCC 101",
           "Course Title": "NSS/NCC",
           "Credit Hours": "0+1*"
         },
         {
-          "S.No": 12,
+          "S.No": 11,
           "Course No.": "PED 101",
           "Course Title": "Physical Education",
           "Credit Hours": "0+1*"
@@ -1882,8 +1876,8 @@ Information = {
       "sem3": [
         {
           "S.No": 1,
-          "Course No.": "AGM 201",
-          "Course Title": "Fundamentals of Microbiology",
+          "Course No.": "PAT 201",
+          "Course Title": "Fundamentals of Plant Pathology",
           "Credit Hours": "2+1"
         },
         {
@@ -1901,7 +1895,7 @@ Information = {
         {
           "S.No": 4,
           "Course No.": "AGR 201",
-          "Course Title": "Crop Production Technology I (Kharif crops)",
+          "Course Title": "Crop Production Technology-I (Kharif crops)",
           "Credit Hours": "1+1"
         },
         {
@@ -1936,18 +1930,24 @@ Information = {
         },
         {
           "S.No": 10,
-          "Course No.": "AGR 202",
-          "Course Title": "Study tour Non gradial compulsory",
-          "Credit Hours": "0+1*"
+          "Course No.": "FMP 211",
+          "Course Title": "Farm Machinery and Power",
+          "Credit Hours": "1+1"
         },
         {
           "S.No": 11,
+          "Course No.": "AGR 202",
+          "Course Title": "Study tour",
+          "Credit Hours": "0+1*"
+        },
+        {
+          "S.No": 12,
           "Course No.": "NSS/NCC 101",
           "Course Title": "NSS/NCC",
           "Credit Hours": "0+1*"
         },
         {
-          "S.No": 12,
+          "S.No": 13,
           "Course No.": "PED 101",
           "Course Title": "Physical Education",
           "Credit Hours": "0+1*"
@@ -1968,14 +1968,14 @@ Information = {
         },
         {
           "S.No": 3,
-          "Course No.": "MAT 211",
+          "Course No.": "STA 201",
           "Course Title": "Statistical Methods",
           "Credit Hours": "1+1"
         },
         {
           "S.No": 4,
-          "Course No.": "PAT 201",
-          "Course Title": "Principles of plant disease management",
+          "Course No.": "PAT 202",
+          "Course Title": "Principles of Integrated Plant Disease Management",
           "Credit Hours": "1+1"
         },
         {
@@ -1987,14 +1987,14 @@ Information = {
         {
           "S.No": 6,
           "Course No.": "AGR 203",
-          "Course Title": "Crop Production Technology II (Rabi crops)",
+          "Course Title": "Crop Production Technology-II (Rabi crops)",
           "Credit Hours": "1+1"
         },
         {
           "S.No": 7,
           "Course No.": "ERG 211",
-          "Course Title": "Renewable Energy",
-          "Credit Hours": "1+0"
+          "Course Title": "Renewable Energy and Green Technology",
+          "Credit Hours": "1+1"
         },
         {
           "S.No": 8,
@@ -2018,12 +2018,12 @@ Information = {
           "S.No": 11,
           "Course No.": "ANM 201",
           "Course Title": "Introductory Nematology",
-          "Credit Hours": "1+1"
+          "Credit Hours": "0+1"
         },
         {
           "S.No": 12,
           "Course No.": "NST 201",
-          "Course Title": "Fundamentals and Applications of nanotechnology",
+          "Course Title": "Fundamentals and Applications of Nanotechnology",
           "Credit Hours": "1+0"
         },
         {
@@ -2055,25 +2055,25 @@ Information = {
         {
           "S.No": 3,
           "Course No.": "AGM 301",
-          "Course Title": "Soil and Applied Microbiology",
+          "Course Title": "Agricultural Microbiology",
           "Credit Hours": "1+1"
         },
         {
           "S.No": 4,
           "Course No.": "PAT 301",
-          "Course Title": "Diseases of Field and Horticultural crops and their management",
+          "Course Title": "Diseases of Field and Horticultural crops and their management-I",
           "Credit Hours": "1+1"
         },
         {
           "S.No": 5,
-          "Course No.": "AEX 301",
-          "Course Title": "Entrepreneurship Development and Business Communication",
+          "Course No.": "ARM 301",
+          "Course Title": "Entrepreneurship Development and Business Management",
           "Credit Hours": "1+1"
         },
         {
           "S.No": 6,
           "Course No.": "AGR 301",
-          "Course Title": "Practical Crop Production I (Kharif crops)",
+          "Course Title": "Practical Crop Production-I (Kharif crops)",
           "Credit Hours": "0+2"
         },
         {
@@ -2090,18 +2090,24 @@ Information = {
         },
         {
           "S.No": 9,
-          "Course No.": "ABT 301",
-          "Course Title": "Plant Bio technology",
-          "Credit Hours": "2+1"
+          "Course No.": "APE 311",
+          "Course Title": "Protected Cultivation and Secondary Agriculture",
+          "Credit Hours": "1+1"
         },
         {
           "S.No": 10,
+          "Course No.": "AEN 301",
+          "Course Title": "Pests of Field Crops and Stored produces and their Management",
+          "Credit Hours": "1+1"
+        },
+        {
+          "S.No": 11,
           "Course No.": "AGR 302",
           "Course Title": "Rainfed Agriculture & Watershed Management",
           "Credit Hours": "1+1"
         },
         {
-          "S.No": 11,
+          "S.No": 12,
           "Course No.": "NCC 101",
           "Course Title": "NCC*",
           "Credit Hours": "0"
@@ -2117,13 +2123,13 @@ Information = {
         {
           "S.No": 2,
           "Course No.": "PAT 302",
-          "Course Title": "Diseases of Field crops and Horticultural crops and their Management",
+          "Course Title": "Diseases of Field crops and Horticultural crops and their Management-II",
           "Credit Hours": "2+1"
         },
         {
           "S.No": 3,
           "Course No.": "COM 311",
-          "Course Title": "Agriculture Informatics",
+          "Course Title": "Agro-informatics",
           "Credit Hours": "1+1"
         },
         {
@@ -2134,20 +2140,20 @@ Information = {
         },
         {
           "S.No": 5,
-          "Course No.": "APE 311",
-          "Course Title": "Post-Harvest and Food Engineering",
-          "Credit Hours": "1+1"
+          "Course No.": "ABT 301",
+          "Course Title": "Plant Biotechnology",
+          "Credit Hours": "2+1"
         },
         {
           "S.No": 6,
-          "Course No.": "AEN 301",
-          "Course Title": "Pests of Crops and Stored grain and their Management",
-          "Credit Hours": "2+1"
+          "Course No.": "AEN 302",
+          "Course Title": "Pests of Horticultural Crops,Stored grain and their Management",
+          "Credit Hours": "1+1"
         },
         {
           "S.No": 7,
           "Course No.": "AGR 303",
-          "Course Title": "Practical Crop Production II (Rabi crops)",
+          "Course Title": "Practical Crop Production-II (Rabi crops)",
           "Credit Hours": "0+2"
         },
         {
@@ -2178,15 +2184,24 @@ Information = {
       "sem7": [
         {
           "S.No": 1,
-          "Course No.": "RAWE",
-          "Course Title": "General orientation & On campus training by different faculties	\nVillage attachment/ Unit attachment in Univ./ College. KVK/ Res. Stn.\nAgro-Industrial Attachment",
+          "Course No.": "AEX 401 RAWE",
+          "Course Title": "General orientation & On campus training by different faculties  \nVillage attachment/ Unit attachment in Univ./ College. KVK/ RS.\nAgro-Industrial Attachment",
           "Credit Hours": "20"
         },
         {
           "S.No": 2,
-          "Course No.": "PRO",
+          "Course No.": "APW 401 PROJECT",
           "Course Title": "Project Report Preparation, Presentation and Evaluation",
           "Credit Hours": "1"
+
+
+        },
+        {
+          "S.No": 3,
+          "Course No.": "AEX 402 AIT",
+          "Course Title": "All India Study Tour",
+          "Credit Hours": "1"
+
 
         }
 
@@ -2195,17 +2210,18 @@ Information = {
         {
           "S.No": 1,
           "Course No.": "EXP-I",
-          "Course Title": "EXP Module-I",
+          "Course Title": "Experiential Module-I",
           "Credit Hours": "0+10"
         },
         {
           "S.No": 2,
           "Course No.": "EXP-II",
-          "Course Title": "EXP Module-II",
+          "Course Title": "Experiential Module-II",
           "Credit Hours": "0+10"
         }
       ]
-    },
+    }
+,
     "B.Sc.(Hons.) Horticulture": {
       "course": "B.Sc.(Hons.) Horticulture",
       "sem1": [
