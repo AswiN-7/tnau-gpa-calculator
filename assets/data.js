@@ -3102,6 +3102,371 @@ Information = {
         }
       ]
     },
+    "B.Sc.(Hons.) Sericulture": {
+      "course": "B.Sc.(Hons.) Sericulture",
+      "sem1": [
+        {
+          "Course No.": "SER 101 ",
+          "Course Title": "History,Development and Organization of Sericulture Industry",
+          "Credit Hours": "1+0"
+        },
+        {
+          "Course No.": "AEC 101",
+          "Course Title": "Principles of Agricultural Resource Economics",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "AEX 141",
+          "Course Title": "Fundamentals of Rural Sociology ,Educational Psychology and Constitution of India ",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "AGR 113",
+          "Course Title": "Introductory Agriculture,Principles of Agronomy and Soil Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AGM 123",
+          "Course Title": "Introduction to Agricultural Microbiology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "BIC 103",
+          "Course Title": "Plant Biochemistry",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "ENG 101",
+          "Course Title": "Comprehension and Communicative English",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "FOR 111",
+          "Course Title": "Introduction to Forestry and AgroForestry",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "HOR 114",
+          "Course Title": "Fundamentals of Plant Propagation and Nursery Management ",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "TAM 101",
+          "Course Title": "Tamil Ilakkiyam",
+          "Credit Hours": "0+1"
+        },
+        {
+          "Course No.": "PED 102",
+          "Course Title": "Yoga for human excellence",
+          "Credit Hours": "0+1"
+        }
+      ],
+      "sem2": [
+        {
+          "Course No.": "SER 102",
+          "Course Title": "Cultivation of Host Plants of Silkworms",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 103",
+          "Course Title": "Botany and Cytology of Host Plants of Silkworms",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 104",
+          "Course Title": "Mulberry Production and Management",
+          "Credit Hours": "0+1"
+        },
+        {
+          "Course No.": "SER 105",
+          "Course Title": "Morphology and Systematics of Silkworms",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "CRP 115",
+          "Course Title": "Crop Physiology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "COM 111",
+          "Course Title": "Introduction to Computers and Application",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "PBG 113",
+          "Course Title": "Principles of Genetics",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AGR 115",
+          "Course Title": "Water Management Including Micro- Irrigation",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SAC 101",
+          "Course Title": "Fundamentals of Soil Science",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AEN 121",
+          "Course Title": "Insect Morphology and Systematics",
+          "Credit Hours": "2+1"
+        }],
+      "sem3": [
+        {
+          "Course No.": "SER 201",
+          "Course Title": "Genetics and Breeding of Host Plants of Silkworms",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 202",
+          "Course Title": "Silkworm Anatomy and Physiology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 203",
+          "Course Title": "Cytology and Genetics of Silkworms",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SER 204",
+          "Course Title": "Vanya Sericulture",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SER 205",
+          "Course Title": "Resource Generation and Management in Sericulture",
+          "Credit Hours": "1+0"
+        },
+        {
+          "Course No.": "SER 206",
+          "Course Title": "Mulberry Silkworm Rearing",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SER 207",
+          "Course Title": "Short Tour",
+          "Credit Hours": "0+1"
+        },
+        {
+          "Course No.": "AGM 225",
+          "Course Title": "Applied Microbiology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "ENS 201",
+          "Course Title": "Environmental Studies and disaster management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AMP 201",
+          "Course Title": "Livestock and Poultry Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SST 201",
+          "Course Title": "Principles of Seed Technology",
+          "Credit Hours": "2+1"
+        }
+      ],
+      "sem4": [
+        {
+          "Course No.": "SER 208",
+          "Course Title": "Genetic Resources of Mulberry and Silkworm",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 209",
+          "Course Title": "Silkworm Breeding ",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SER 210",
+          "Course Title": "Principles and Pests of Host Plants of Silkworms and their Management",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 211",
+          "Course Title": "Pests of Silkworms & management",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "PAT 203",
+          "Course Title": "Introductory Plant Pathology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "FSC 203",
+          "Course Title": "Dry Land Horticulture",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "STA 211",
+          "Course Title": "Statistical Methods ",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "AGE 211",
+          "Course Title": "Farm Power,Renewable Energy,Surveying and Soil Water Engineering",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AEX 241",
+          "Course Title": "Fundamentals of Extension and Rural Development",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "AGR 212",
+          "Course Title": "Agricultural Meteorology Rainfed Agriculture and Watershed Management ",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "ANM 201",
+          "Course Title": "Introductory Nematology",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "NST 201",
+          "Course Title": "Fundamentals and Applications of Nanotechnology",
+          "Credit Hours": "1+0"
+        },
+        {
+          "Course No.": "NSS 101",
+          "Course Title": "National Service Scheme ",
+          "Credit Hours": "0+1"
+        },
+        {
+          "Course No.": "PED 101",
+          "Course Title": "Physical Education, Health Education and Recreation  ",
+          "Credit Hours": "0+1"
+        }
+      ],
+      "sem5": [
+        {
+          "Course No.": "SER 301",
+          "Course Title": "Sustainable Moriculture",
+          "Credit Hours": "2+0"
+        },
+        {
+          "Course No.": "SER 302",
+          "Course Title": "Bivoltine Sericulture",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 303",
+          "Course Title": "Planning & Management of Silk Reeling Unit",
+          "Credit Hours": "2+0"
+        },
+        {
+          "Course No.": "SER 304",
+          "Course Title": "Diseases of Host Plants of Silkworms",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 305",
+          "Course Title": "Diseases of Silkworms & Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SER 306",
+          "Course Title": "Silk Throwing,Dyeing and Weaving ",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 307",
+          "Course Title": "Silkworm Seed Technology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "ABT 301",
+          "Course Title": "Plant Biotechnology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AEX 341",
+          "Course Title": "Communication & Extension Methodologies for Transfer of Technology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AGR 312",
+          "Course Title": "Farming Systems,Organic farming and Sustainable Agriculture",
+          "Credit Hours": "2+1"
+        }
+      ],
+      "sem6": [
+        {
+          "Course No.": "SER 308",
+          "Course Title": "Cocoon Production Technology",
+          "Credit Hours": "0+2"
+        },
+        {
+          "Course No.": "SER 309",
+          "Course Title": "Physics & Chemistry of Fibres ",
+          "Credit Hours": "1+0"
+        },
+        {
+          "Course No.": "SER 310",
+          "Course Title": "Experimental Techniques in Sericultural Research",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SER 311",
+          "Course Title": "Raw Silk Technology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SER 312",
+          "Course Title": "Spun Silk Technology",
+          "Credit Hours": "1+0"
+        },
+        {
+          "Course No.": "SER 313",
+          "Course Title": "Seri Biotechnology",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "SER 314",
+          "Course Title": "Seri Business-Management",
+          "Credit Hours": "1+1"
+        },
+        {
+          "Course No.": "SAC 311",
+          "Course Title": "Soil Fertility & Nutrient Management ",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AEN 321",
+          "Course Title": "Pest of Crops,Stored Produces & Management",
+          "Credit Hours": "2+1"
+        },
+        {
+          "Course No.": "AEC 302",
+          "Course Title": "Agricultural Finance and Cooperation",
+          "Credit Hours": "2+1"
+        }
+      ],
+      "sem7": [
+        {
+          "Course No.": "SER 401",
+          "Course Title": "Rural Work Experience Programme(Sericulture)",
+          "Credit Hours": "0+20"
+        },
+        {
+          "Course No.": "SER 402",
+          "Course Title": "All India Study Tour",
+          "Credit Hours": "0+1"
+        }
+      ],
+      "sem8": [
+        {
+          "Course No.": "SER 403",
+          "Course Title": "Student Ready : Experiential Learning Programme",
+          "Credit Hours": "0+20"
+        }
+      ]
+
+
+    }
     // "B.Sc.(Hons.) Food, Nutrition and Dietetics":{
     //     "course" : "", 
     //     "sem1":[
