@@ -34,6 +34,7 @@ const courseSection = document.getElementById('r1');
 const streamSection = document.getElementById('r2');
 const semasterSection = document.getElementById('r3');
 const gpaSection = document.getElementById('r4');
+
 const downloadRes = document.getElementById('r5');
 const footer = document.getElementById('r6');
 
@@ -56,9 +57,11 @@ selectedStream = NaN;
 selectedStreamSemesters = NaN;
 selectedSemaster = NaN;
 
-
+semsTotalCreditHrs = []
 totalCreditPoints = 0;
+ogpaTotalCreditPoints = 0;
 totalCreditHours = 0;
+ogpaTotalCreditHours = 0;
 
 createCourseSection();
 
@@ -236,7 +239,8 @@ function createSubjectSection(){
 
 function resSection(){
     let div = document.createElement('div');
-    
+    div.classList.add("grid")
+
     let gpaCalBtn = document.createElement('h1');
     gpaCalBtn.textContent = "Cal GPA"
     gpaCalBtn.classList.add('button');
@@ -245,39 +249,138 @@ function resSection(){
     div.appendChild(gpaCalBtn);
     
     let subDiv = document.createElement('div');
+    subDiv.id = "gpaResDiv";
     subDiv.classList.add("section")
-    let tcp = document.createElement('h1');
-    tcp.id = "tcp";
-    tcp.classList.add("result__element")
-    subDiv.appendChild(tcp)
+    subDiv.classList.add("result__element")
 
-    let tch = document.createElement('h1');
-    tch.id = "tch";
-    tch.classList.add("result__element")
-    subDiv.appendChild(tch)
+    // let tcp = 
+    // tcp.id = "tcp";
+    // // tcp.classList.add("result__element")
 
-    let gpa = document.createElement('h1')
-    gpa.id = "gpa"
-    gpa.classList.add("result__element")
-    subDiv.appendChild(gpa)
-    // subDiv.classList.add('items');
+    // let tch = document.createElement('h1');
+    // tch.id = "tch";
+    // // tch.classList.add("result__element")
+    // subDiv.appendChild(tch)
 
-    let printOut = document.createElement('h1')
-    printOut.id = "printout"
-    subDiv.appendChild(printOut)
+    // let gpa = document.createElement('h1')
+    // gpa.id = "gpa"
+    // // gpa.classList.add("result__element")
+    // subDiv.appendChild(gpa)
+    // // subDiv.classList.add('items');
+
+    // let printOut = document.createElement('h1')
+    // printOut.id = "printout"
+    // subDiv.appendChild(printOut)
 
     div.appendChild(subDiv);
-    div.classList.add("grid")
 
     return div
+}
+
+function createOgpaSection(){
+    const ogpaDiv = document.createElement('div')
+    ogpaDiv.classList.add('ogpa__section')
+    let h1 = document.createElement('h1')
+    h1.textContent = "OGPA"
+    h1.classList.add('section__title')
+    ogpaDiv.appendChild(h1)
+
+    semDiv = document.createElement('div');
+    semDiv.classList.add("gird")
+    semDiv.classList.add("ogpa__elediv")
+    // ogpaDiv.innerHTML = "OGPA";
+
+    sems = [Information[selectedCourse][selectedStream]]
+    console.log(sems);
+    semsTotalCreditHrs = []
+    for (let index = 1; index < parseInt(selectedSemaster[3])+1; index++) {
+        curr_tch = 0;
+        const curr_sem = sems[0]['sem'+index];
+        curr_sem.forEach(element => {
+            curr_tch += eval(parseExp(element['Credit Hours']));
+        })
+        semsTotalCreditHrs.push(curr_tch);
+        semDiv.appendChild(createOgpaElement(curr_tch,index))
+    }
+    console.log("in ogpa", semsTotalCreditHrs);
+    ogpaDiv.appendChild(semDiv);
     
+    // cal ogpa button 
+    let ogpaCalBtn = document.createElement('h1');
+    ogpaCalBtn.textContent = "Cal OGPA"
+    ogpaCalBtn.classList.add('button');
+
+    ogpaCalBtn.addEventListener("click", calculateOgpa);
+    ogpaDiv.appendChild(ogpaCalBtn);
+
+    let subDiv = document.createElement('div');
+    subDiv.id = "ogpaResDiv";
+    subDiv.classList.add("result__element")
+    ogpaDiv.appendChild(subDiv);
+    return ogpaDiv;
+}
+
+function createOgpaElement(tch, index){
+    let div = document.createElement('div');
+    div.classList.add("ogpa_items")
+    let semName = document.createElement('h2');
+    semName.textContent =  "Sem" + index;
+    // subName.classList.add('subject__name');
+  
+    var input = document.createElement("INPUT");
+    input.id = "ogpa-sem-"+index;
+    input.setAttribute("type", "number")
+    input.classList.add('sem__score');
+
+    let tchEle = document.createElement('h2');
+    tchEle.textContent =  tch;
+
+
+    div.appendChild(semName);
+    div.appendChild(input);
+    div.appendChild(tchEle);
+    // div.classList.add('items');
+    return div
+}
+
+function calculateOgpa(){
+    noSems = parseInt(selectedSemaster[3])
+    ogpaTotalCreditPoints = 0
+    ogpaTotalCreditHours = 0
+    for (let index = 1; index < noSems+1; index++) {
+        curr_sem = document.getElementById('ogpa-sem-'+index);
+        if(curr_sem.value != ''){
+            ogpaTotalCreditPoints+=parseInt(curr_sem.value)
+            ogpaTotalCreditHours += parseInt(semsTotalCreditHrs[index-1])
+
+        }
+        console.log("in ogpa"+curr_sem.value);
+    }
+    const ogpaResDiv = document.getElementById('ogpaResDiv');
+    clearSection(ogpaResDiv)
+
+    ogpa = ogpaTotalCreditPoints/ogpaTotalCreditHours;
+
+    const ogpatcpRes = document.createElement('h1');
+    ogpatcpRes.innerHTML = "Total Credit Points : " + ogpaTotalCreditPoints.toFixed(3);
     
+    const ogpatchRes = document.createElement('h1');
+    ogpatchRes.innerHTML = "Total Credit Hours : " + ogpaTotalCreditHours.toFixed(3);
+
+    const ogpaRes = document.createElement('h1');;
+    ogpaRes.innerHTML = "OGPA : " + ogpa.toFixed(3);
+
+    ogpaResDiv.appendChild(ogpatcpRes)
+    ogpaResDiv.appendChild(ogpatchRes)
+    ogpaResDiv.appendChild(ogpaRes)
+
 }
 function createGpaSection(){
     clearSection(gpaSection);
     gpaSection.appendChild(infoSection());
     gpaSection.appendChild(createSubjectSection());
     gpaSection.appendChild(resSection());
+    gpaSection.appendChild(createOgpaSection());
 } 
 
 function parseExp(str){
@@ -353,7 +456,6 @@ function generateResult(){
 
 
 }
-
 // gpa calculate
 function calculateGpa() {
     totalCreditPoints = 0;
@@ -390,24 +492,32 @@ function calculateGpa() {
     });
     gpa = totalCreditPoints/totalCreditHours;
     // gpa.parseFloat(2);
-    const tcpRes = document.getElementById('tcp');
-    tcpRes.innerHTML = "total Credit Points : " + totalCreditPoints.toFixed(3);
-    
-    const tchRes = document.getElementById('tch');
-    tchRes.innerHTML = "total Credit Hours : " + totalCreditHours.toFixed(3);
 
-    const gpaRes = document.getElementById('gpa');
+    const gpaResDiv = document.getElementById('gpaResDiv');
+    clearSection(gpaResDiv)
+
+    const tcpRes = document.createElement('h1');
+    tcpRes.innerHTML = "Total Credit Points : " + totalCreditPoints.toFixed(3);
+    
+    const tchRes = document.createElement('h1');
+    tchRes.innerHTML = "Total Credit Hours : " + totalCreditHours.toFixed(3);
+
+    const gpaRes = document.createElement('h1');;
     gpaRes.innerHTML = "GPA : " + gpa.toFixed(3);
+
+    gpaResDiv.appendChild(tcpRes)
+    gpaResDiv.appendChild(tchRes)
+    gpaResDiv.appendChild( gpaRes)
     console.log(subjects);
     
-    generateResult();
+    // generateResult();
 
     // printing result to user
-    const printOut = document.getElementById('printout');
-    console.log(printOut.removeEventListener("click", downloadEvents));
-    printOut.classList.add('button');
-    printOut.innerHTML = "Download result";
-    printOut.addEventListener("click",downloadEvents);
+    // const printOut = document.getElementById('printout');
+    // console.log(printOut.removeEventListener("click", downloadEvents));
+    // printOut.classList.add('button');
+    // printOut.innerHTML = "Download result";
+    // printOut.addEventListener("click",downloadEvents);
 
     // console.log(subjects);
   }
