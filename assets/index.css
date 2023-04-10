@@ -145,7 +145,7 @@ image{
 }
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
-    padding: 2rem 0 4rem;
+    padding: 2rem 0 0;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -188,6 +188,7 @@ image{
 .grp-streams{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: .5rem;
 }
 .grp-semaster{
     display: grid;
@@ -248,7 +249,24 @@ image{
     background-color: red;
     font-size: var(--h2-font-size);
 }
+
+
+/*==================== OGPA ====================*/
+.ogpa__section{
+    max-width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+.ogpa__elediv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    grid-gap: 1rem;
+    padding: .5rem;
+}
 /*==================== LAYOUT ====================*/
+
 
 .container{
     max-width: 768px;
@@ -281,6 +299,23 @@ image{
     /* border-radius: 50%; */
     border-radius: 10% / 50%;
 }
+.sem__score{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: var(--h2-font-size);
+    /* border-radius: 50%; */
+    border-radius: 30% 70% 70% 30% / 63% 54% 46% 37% 
+}
+.ogpa_items{
+    padding: 0.5rem;
+    /* width: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 .subject__score:hover{
     border-color: var(--first-color);
 }
@@ -311,6 +346,15 @@ image{
     align-items: center;
 }
 
+#tooltip {
+    position: absolute;
+    background-color:var(--first-color);
+    color: var(--title-color);
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    display: none;
+  }
 
 /*==================== footer ====================*/
 .footer__subtitle{

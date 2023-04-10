@@ -2295,7 +2295,7 @@ Information = {
           "S.No": "12.",
           "Course No.": "PED 102*",
           "Course Title": "Yoga for Human Excellence",
-          "Credit Hours": "NG"
+          "Credit Hours": "0"
         }
       ],
       "sem2": [
