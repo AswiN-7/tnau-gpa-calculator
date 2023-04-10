@@ -355,7 +355,7 @@ function createOgpaElement(tch, index){
 
     div.appendChild(semName);
     div.appendChild(input);
-    div.appendChild(tchEle);
+    // div.appendChild(tchEle);
     // div.classList.add('items');
     return div
 }
