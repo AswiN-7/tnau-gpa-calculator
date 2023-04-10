@@ -41,6 +41,7 @@ const footer = document.getElementById('r6');
 const instruction = document.getElementById('Instructions')
 const instructionBlock = document.getElementById('instructionBlock')
 
+const tooltip = document.getElementById('tooltip');
 
 
 instruction.addEventListener('click', ()=>{
@@ -212,7 +213,7 @@ function createSubjectSection(){
     div11.appendChild(sub);
 
     let score = document.createElement('h2');
-    score.textContent = "Score";
+    score.textContent = "Grade points (1-10)";
     div11.appendChild(score);
 
     div11.classList.add('items');
@@ -232,7 +233,12 @@ function createSubjectSection(){
         div.appendChild(createSubjectElement(subject));
     }); 
     // }
-   
+
+    let divnonGradial = document.createElement('div');
+   let nonGradial = document.createElement('h2');
+    nonGradial.textContent = "** Please Leave the Non Gradial Subjects as Empty";
+    divnonGradial.appendChild(nonGradial);
+    div.appendChild(divnonGradial)
     return div;
 }
 
@@ -332,6 +338,17 @@ function createOgpaElement(tch, index){
     input.setAttribute("type", "number")
     input.classList.add('sem__score');
 
+    input.addEventListener('focus', () => {
+        tooltip.textContent = "Enter Total Grade Points";
+        tooltip.style.top = input.offsetTop - 1.5 * input.offsetHeight + 'px';
+        tooltip.style.left = input.offsetLeft + 'px';
+        tooltip.style.display = 'block';
+      });
+      
+      input.addEventListener('blur', () => {
+        tooltip.style.display = 'none';
+      });
+
     let tchEle = document.createElement('h2');
     tchEle.textContent =  tch;
 
@@ -343,6 +360,7 @@ function createOgpaElement(tch, index){
     return div
 }
 
+
 function calculateOgpa(){
     noSems = parseInt(selectedSemaster[3])
     ogpaTotalCreditPoints = 0
@@ -350,7 +368,7 @@ function calculateOgpa(){
     for (let index = 1; index < noSems+1; index++) {
         curr_sem = document.getElementById('ogpa-sem-'+index);
         if(curr_sem.value != ''){
-            ogpaTotalCreditPoints+=parseInt(curr_sem.value)
+            ogpaTotalCreditPoints+=parseFloat(curr_sem.value)
             ogpaTotalCreditHours += parseInt(semsTotalCreditHrs[index-1])
 
         }
@@ -476,7 +494,7 @@ function calculateGpa() {
             console.log(gradePoints);
             element['score'] = gradePoints
 
-            gradePoints = (gradePoints/100) * 10;
+            // gradePoints = (gradePoints/100) * 10;
             creditHours = eval(parseExp(element['Credit Hours']));
     
             element['gp'] = gradePoints;
@@ -495,7 +513,6 @@ function calculateGpa() {
 
     const gpaResDiv = document.getElementById('gpaResDiv');
     clearSection(gpaResDiv)
-
     const tcpRes = document.createElement('h1');
     tcpRes.innerHTML = "Total Credit Points : " + totalCreditPoints.toFixed(3);
     
