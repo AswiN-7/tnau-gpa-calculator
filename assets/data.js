@@ -85,17 +85,17 @@ Information = {
         {
           "Course No.": "NSS101",
           "Course Title": "NATIONAL SERVICE SCHEME",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         },
         {
           "Course No.": "PED101",
           "Course Title": "PHYSICAL EDUCATION",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         },
         {
           "Course No.": "PED102",
           "Course Title": "YOGA FOR HUMAN EXCELLENCE",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         }
       ],
       "sem2": [
@@ -194,7 +194,7 @@ Information = {
         {
           "Course No.": "COM201",
           "Course Title": "COMPUTER PROGRAMMING AND DATA STRUCTURES",
-          "Credit Hours": "1+!"
+          "Credit Hours": "1+1"
         }
       ],
       "sem4": [
@@ -283,7 +283,7 @@ Information = {
         {
           "Course No.": "REE301",
           "Course Title": "ALTERNATE RENEWABLE POWER SOURCES",
-          "Credit Hours": "2+!"
+          "Credit Hours": "2+1"
         },
         {
           "Course No.": "ARM301",
@@ -752,21 +752,21 @@ Information = {
           "S.No": 10,
           "Course No.": "PED 101",
           "Course Title": "Physical Education",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": "Phy.Education",
         },
         {
           "S.No": 11,
           "Course No.": "PED 102",
           "Course Title": "Yoga for Human Excellence",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": "Phy.Education",
         },
         {
           "S.No": 12,
           "Course No.": "NCC 101/ NSS 101",
           "Course Title": "National Cadet Corps / National Service Scheme",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": "",
         }
       ],
@@ -838,14 +838,14 @@ Information = {
           "S.No": 10,
           "Course No.": "PED 101",
           "Course Title": "Physical Education",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": "Phy.Education"
         },
         {
           "S.No": 11,
           "Course No.": "NCC 101/ NSS 101",
           "Course Title": "National Cadet Corps / National Service Scheme",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": ""
         }
       ],
@@ -917,14 +917,14 @@ Information = {
           "S.No": 10,
           "Course No.": "PED 101",
           "Course Title": "Physical Education",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": "Phy.Education"
         },
         {
           "S.No": 11,
           "Course No.": "NCC 101/ NSS 101",
           "Course Title": "National Cadet Corps / National Service Scheme",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": ""
         }
       ],
@@ -1017,14 +1017,14 @@ Information = {
           "S.No": 13,
           "Course No.": "PED 101",
           "Course Title": "Physical Education",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": "Phy.Education"
         },
         {
           "S.No": 14,
           "Course No.": "NCC 101/ NSS 101",
           "Course Title": "National Cadet Corps / National Service Scheme",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": ""
         }
       ],
@@ -1103,7 +1103,7 @@ Information = {
           "S.No": 11,
           "Course No.": "NCC 101",
           "Course Title": "National Cadet Corps",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": ""
         },
       ],
@@ -1115,6 +1115,7 @@ Information = {
           "Credit Hours": "1+0",
           "Course offering Department": "Plant Biotech.",
 
+
         },
         {
           "S.No": 2,
@@ -1122,6 +1123,7 @@ Information = {
           "Course Title": "Intellectual Property Rights and Applications in Biotechnology",
           "Credit Hours": "1+0",
           "Course offering Department": "Trade & IP",
+
 
         },
         {
@@ -1131,6 +1133,7 @@ Information = {
           "Credit Hours": "1+1",
           "Course offering Department": "Ag.Micro",
 
+
         },
         {
           "S.No": 4,
@@ -1138,6 +1141,7 @@ Information = {
           "Course Title": "Biostatistics",
           "Credit Hours": "1+1",
           "Course offering Department": "PS&IT",
+
 
         },
         {
@@ -1147,6 +1151,7 @@ Information = {
           "Credit Hours": "2+1",
           "Course offering Department": "Plant Biotech.",
 
+
         },
         {
           "S.No": 6,
@@ -1154,6 +1159,7 @@ Information = {
           "Course Title": "Principles and Applications of Plant Genetic Transformation",
           "Credit Hours": "2+1",
           "Course offering Department": "Plant Biotech.",
+
 
         },
         {
@@ -1163,6 +1169,7 @@ Information = {
           "Credit Hours": "2+1",
           "Course offering Department": "Plant Biotech.",
 
+
         },
         {
           "S.No": 8,
@@ -1170,6 +1177,7 @@ Information = {
           "Course Title": "Molecular Breeding in Field Crops",
           "Credit Hours": "2+1",
           "Course offering Department": "Plant Biotech.",
+
 
         },
         {
@@ -1179,6 +1187,7 @@ Information = {
           "Credit Hours": "2+1",
           "Course offering Department": "Plant Biotech.",
 
+
         },
         {
           "S.No": 10,
@@ -1187,13 +1196,15 @@ Information = {
           "Credit Hours": "2+1",
           "Course offering Department": "Plant Biotech.",
 
+
         },
         {
           "S.No": 11,
           "Course No.": "NCC 101",
           "Course Title": "National Cadet Crops",
-          "Credit Hours": "0+1#",
+          "Credit Hours": "0+1*",
           "Course offering Department": "",
+
 
         }
       ],
@@ -1279,19 +1290,19 @@ Information = {
           "S.No": 8,
           "Course No.": "NSS / NCC 101",
           "Course Title": "National Service Scheme / National Cadet Corps*",
-          "Credit Hours": "0 + 1"
+          "Credit Hours": "0 + 1*"
         },
         {
           "S.No": 9,
           "Course No.": "PED 101",
           "Course Title": "Physical Education*",
-          "Credit Hours": "0 + 1"
+          "Credit Hours": "0 + 1*"
         },
         {
           "S.No": 10,
           "Course No.": "PED 102",
           "Course Title": "Yoga for Human Excellence*",
-          "Credit Hours": "0 + 1"
+          "Credit Hours": "0 + 1*"
         }
       ],
       "sem2": [
@@ -1365,13 +1376,13 @@ Information = {
           "S.No": 12,
           "Course No.": "NSS / NCC101",
           "Course Title": "National Service Scheme / National Cadet Corps#",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         },
         {
           "S.No": 13,
           "Course No.": "PED 101",
           "Course Title": "Physical Education#",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         }
       ],
       "sem3": [
@@ -1439,13 +1450,13 @@ Information = {
           "S.No": 11,
           "Course No.": "NSS/NCC 101",
           "Course Title": "National Service Scheme / National Cadet Corps#",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         },
         {
           "S.No": 12,
           "Course No.": "PED 101",
           "Course Title": "Physical Education#",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         }
       ],
       "sem4": [
@@ -1525,13 +1536,13 @@ Information = {
           "S.No": 13,
           "Course No.": "NSS / NCC101",
           "Course Title": "National Service Scheme / National Cadet Corps#",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         },
         {
           "S.No": 14,
           "Course No.": "PED 101",
           "Course Title": "Physical Education#",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         }
       ],
       "sem5": [
@@ -1598,8 +1609,8 @@ Information = {
         {
           "S.No": 11,
           "Course No.": " ",
-          "Course Title": "NCC#",
-          "Credit Hours": "0+1"
+          "Course Title": "NCC*",
+          "Credit Hours": "0+1*"
         }
       ],
       "sem6": [
@@ -1672,8 +1683,8 @@ Information = {
         {
           "S.No": 12,
           "Course No.": "###",
-          "Course Title": "NCC#",
-          "Credit Hours": "0+1"
+          "Course Title": "NCC*",
+          "Credit Hours": "0+1*"
         }
       ],
       "sem7": [
@@ -2110,7 +2121,7 @@ Information = {
           "S.No": 12,
           "Course No.": "NCC 101",
           "Course Title": "NCC*",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem6": [
@@ -2178,7 +2189,7 @@ Information = {
           "S.No": 11,
           "Course No.": "NCC 101",
           "Course Title": "NCC*",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem7": [
@@ -2195,6 +2206,8 @@ Information = {
           "Credit Hours": "1"
 
 
+
+
         },
         {
           "S.No": 3,
@@ -2203,7 +2216,10 @@ Information = {
           "Credit Hours": "1"
 
 
+
+
         }
+
 
       ],
       "sem8": [
@@ -2283,19 +2299,19 @@ Information = {
           "S.No": "10.",
           "Course No.": "NSS 101 / NCC 101*",
           "Course Title": "National Service Scheme / National Cadet Corps",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         },
         {
           "S.No": "11.",
           "Course No.": "PED 101*",
           "Course Title": "Physical Education",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         },
         {
           "S.No": "12.",
           "Course No.": "PED 102*",
           "Course Title": "Yoga for Human Excellence",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem2": [
@@ -2357,13 +2373,13 @@ Information = {
           "S.No": "10.",
           "Course No.": "NSS 101* / NCC 101*",
           "Course Title": "National Service Scheme / National Cadet Corps",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         },
         {
           "S.No": "11.",
           "Course No.": "PED 101*",
           "Course Title": "Physical Education",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem3": [
@@ -2443,13 +2459,13 @@ Information = {
           "S.No": "13.",
           "Course No.": "NSS 101* / NCC 101*",
           "Course Title": "National Service Scheme / National Cadet Corps",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         },
         {
           "S.No": "14.",
           "Course No.": "PED 101*",
           "Course Title": "Physical Education",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem4": [
@@ -2529,13 +2545,13 @@ Information = {
           "S.No": "13.",
           "Course No.": "PED 101*",
           "Course Title": "Physical Education",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         },
         {
           "S.No": "14.",
           "Course No.": "NSS 101* / NCC 101*",
           "Course Title": "National Service Scheme / National Cadet Corps",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem5": [
@@ -2609,7 +2625,7 @@ Information = {
           "S.No": "12.",
           "Course No.": "NCC 101*",
           "Course Title": "National Cadet Corps",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem6": [
@@ -2683,7 +2699,7 @@ Information = {
           "S.No": "12.",
           "Course No.": "NCC 101*",
           "Course Title": "National Cadet Corps",
-          "Credit Hours": "0"
+          "Credit Hours": "0*"
         }
       ],
       "sem7": [
@@ -3158,7 +3174,7 @@ Information = {
         {
           "Course No.": "PED 102",
           "Course Title": "Yoga for human excellence",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         }
       ],
       "sem2": [
@@ -3246,7 +3262,7 @@ Information = {
         {
           "Course No.": "SER 207",
           "Course Title": "Short Tour",
-          "Credit Hours": "0+1"
+          "Credit Hours": "0+1*"
         },
         {
           "Course No.": "AGM 225",
@@ -3464,9 +3480,15 @@ Information = {
           "Credit Hours": "0+20"
         }
       ]
-
-
     }
+
+
+
+
+
+
+
+
     // "B.Sc.(Hons.) Food, Nutrition and Dietetics":{
     //     "course" : "", 
     //     "sem1":[

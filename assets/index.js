@@ -339,7 +339,7 @@ function createOgpaElement(tch, index){
     input.classList.add('sem__score');
 
     input.addEventListener('focus', () => {
-        tooltip.textContent = "Enter Total Grade Points";
+        tooltip.textContent = "Enter Total Credit Points";
         tooltip.style.top = input.offsetTop - 1.5 * input.offsetHeight + 'px';
         tooltip.style.left = input.offsetLeft + 'px';
         tooltip.style.display = 'block';
@@ -402,6 +402,9 @@ function createGpaSection(){
 } 
 
 function parseExp(str){
+    if( str.includes('*'))
+        return 0;
+
     str = str.replace('#', '')
     str = str.replace('*', '')
     str = str.replace('^', '')

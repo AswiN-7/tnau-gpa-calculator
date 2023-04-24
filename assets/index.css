@@ -174,10 +174,13 @@ image{
     flex-direction: column;
     transform: perspective(500px);
     transition: width 20s;
+    align-items: center;
 }
-.instrustion{
-    padding: 5px;
-    text-align: center;
+.instrustion__div{
+    width : 70%;
+    display: grid;
+    row-gap: 1.5px;
+    /* text-align: center; */
 }
 /*==================== course ====================*/
 .grp-course{
