@@ -1756,12 +1756,6 @@ Information = {
           "Credit Hours": "2+1"
         },
         {
-          "S.No": 4,
-          "Course No.": "FOR 111",
-          "Course Title": "Introduction to Forestry & Agroforestry",
-          "Credit Hours": "1+1"
-        },
-        {
           "S.No": 5,
           "Course No.": "ENG 101",
           "Course Title": "Comprehension & Communication Skills in English",
@@ -1882,6 +1876,12 @@ Information = {
           "Course No.": "PED 101",
           "Course Title": "Physical Education",
           "Credit Hours": "0+1*"
+        },
+        {
+          "S.No": 12,
+          "Course No.": "FOR 111",
+          "Course Title": "Introduction to Forestry & Agroforestry",
+          "Credit Hours": "1+1"
         }
       ],
       "sem3": [
